@@ -1,0 +1,5 @@
+Quelle:
+Statistisches Bundesamt, Datenportal "Genesis"
+https://www-genesis.destatis.de
+
+Verbraucherpreisindex https://www-genesis.destatis.de/genesis/online?operation=result&code=61111-0001&deep=true#abreadcrumb

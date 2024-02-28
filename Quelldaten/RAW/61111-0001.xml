@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="UTF-8"?><genml:GENESIS xmlns:genml="https://www-genesis.destatis.de/xml/GENESIS-ML_V0_3" NAME="61111-0001"><genml:DISPLAY-DATA><genml:LABELS><genml:LABEL NAME="UEBERSCHRIFT" POSITION="" VISIBILITY="true"><genml:LEVEL>0</genml:LEVEL><genml:TYPE>UNDEF</genml:TYPE></genml:LABEL><genml:LABEL NAME="61111-0001TITLE" POSITION="" VISIBILITY="true"><genml:CAPTION><genml:TEXT LANG="en" FORMAT="text/plain">Consumer price index: Germany, years</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">Verbraucherpreisindex: Deutschland, Jahre</genml:TEXT></genml:CAPTION><genml:LEVEL>0</genml:LEVEL><genml:TYPE>TITLE</genml:TYPE></genml:LABEL></genml:LABELS><genml:LABEL-ASSOC><genml:ASSOCIATION NAME="UEBERSCHRIFT"><genml:ELEMENT><TYPE>STRUCTURE</TYPE><NAME>61111-0001</NAME></genml:ELEMENT></genml:ASSOCIATION><genml:ASSOCIATION NAME="61111-0001TITLE"><genml:ELEMENT><TYPE>STRUCTURE</TYPE><NAME>61111-0001</NAME></genml:ELEMENT></genml:ASSOCIATION></genml:LABEL-ASSOC><genml:STRUCTURES><genml:STRUCTURE NAME="61111-0001" EXTRACTED="2022-06-02T14:06:50" MODIFIED="2022-06-02T14:06:49" CREATED="2008-02-27T15:02:11"><genml:TRANSPOSE>Y</genml:TRANSPOSE><genml:STRUCTRUE-CHANGEABLE>CHANGEABLE</genml:STRUCTRUE-CHANGEABLE><genml:AXES><genml:AXIS POSITION="FILTER"><genml:STRUCTURE-ELEMENT NAME="61111" EXTRACTED="2022-06-02T14:06:50" TYPE="STATISTICS"><genml:SUMS><genml:TOGETHER>false</genml:TOGETHER><genml:TOTAL>false</genml:TOTAL></genml:SUMS><genml:LABEL-STRUCTURE><genml:ONLY-YEAR>false</genml:ONLY-YEAR><genml:CONTENTS><genml:CONTENT TYPE="KEY">false</genml:CONTENT><genml:CONTENT TYPE="CLASS-KEY">false</genml:CONTENT><genml:CONTENT TYPE="FED-KEY">false</genml:CONTENT><genml:CONTENT TYPE="KTX">true</genml:CONTENT></genml:CONTENTS><genml:SORT><genml:DIRECTION>ASC</genml:DIRECTION><genml:CRITERION></genml:CRITERION></genml:SORT></genml:LABEL-STRUCTURE><genml:STRUCTURE-ELEMENTS><genml:STRUCTURE-ELEMENT NAME="DINSG" EXTRACTED="2022-06-02T14:06:50" TYPE="VARIABLE" SELECTION="N"><genml:SELECTION NAME="DINSG1665390368242"></genml:SELECTION><genml:SUMS><genml:TOGETHER>false</genml:TOGETHER><genml:TOTAL>false</genml:TOTAL></genml:SUMS><genml:LABEL-STRUCTURE><genml:ONLY-YEAR>false</genml:ONLY-YEAR><genml:CONTENTS><genml:CONTENT TYPE="KEY">false</genml:CONTENT><genml:CONTENT TYPE="CLASS-KEY">false</genml:CONTENT><genml:CONTENT TYPE="FED-KEY">false</genml:CONTENT><genml:CONTENT TYPE="KTX">true</genml:CONTENT></genml:CONTENTS><genml:SORT><genml:DIRECTION>ASC</genml:DIRECTION><genml:CRITERION>KTX</genml:CRITERION></genml:SORT></genml:LABEL-STRUCTURE><genml:TITLE VISIBLE="N"><genml:TEXT LANG="en" FORMAT="text/plain">Germany</genml:TEXT><genml:TEXT LANG="fr" FORMAT="text/plain">Deutschland insgesamt</genml:TEXT><genml:TEXT LANG="it" FORMAT="text/plain">Deutschland insgesamt</genml:TEXT><genml:TEXT LANG="es" FORMAT="text/plain">Deutschland insgesamt</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">Deutschland insgesamt</genml:TEXT></genml:TITLE><genml:OUTPUTS><genml:OUTPUT NAME="DINSG" TYPE="VARIABLE" VISIBLE="true"></genml:OUTPUT></genml:OUTPUTS><genml:MARK> </genml:MARK><genml:IDENT>326215</genml:IDENT><genml:NUMBER>2</genml:NUMBER><genml:PROTECTION></genml:PROTECTION><genml:SELECTION-TYPE>SELECTION</genml:SELECTION-TYPE><genml:STRUCTURE-ELEMENT-POSITION-TYPE>TABLE_FILTER</genml:STRUCTURE-ELEMENT-POSITION-TYPE><genml:VARIABLE-TYPE>REGION_CLASSIFYING_TOTAL</genml:VARIABLE-TYPE><genml:SPLITVIEW>false</genml:SPLITVIEW></genml:STRUCTURE-ELEMENT></genml:STRUCTURE-ELEMENTS><genml:TITLE VISIBLE="Y"><genml:TEXT LANG="en">Consumer price index for Germany</genml:TEXT><genml:TEXT LANG="fr">Verbraucherpreisindex für Deutschland</genml:TEXT><genml:TEXT LANG="it">Verbraucherpreisindex für Deutschland</genml:TEXT><genml:TEXT LANG="es">Verbraucherpreisindex für Deutschland</genml:TEXT><genml:TEXT LANG="de">Verbraucherpreisindex für Deutschland</genml:TEXT></genml:TITLE><genml:OUTPUTS><genml:OUTPUT NAME="61111" TYPE="ELEMENT" VISIBLE="true"></genml:OUTPUT></genml:OUTPUTS><genml:MARK> </genml:MARK><genml:IDENT>326214</genml:IDENT><genml:NUMBER>1</genml:NUMBER><genml:PROTECTION></genml:PROTECTION><genml:SELECTION-TYPE>UNDEF</genml:SELECTION-TYPE><genml:STRUCTURE-ELEMENT-POSITION-TYPE>TABLE_FILTER</genml:STRUCTURE-ELEMENT-POSITION-TYPE><genml:VARIABLE-TYPE>UNDEF</genml:VARIABLE-TYPE><genml:SPLITVIEW>false</genml:SPLITVIEW></genml:STRUCTURE-ELEMENT></genml:AXIS><genml:AXIS POSITION="SUBTITLE"></genml:AXIS><genml:AXIS POSITION="COLUMN-STRUCTURE"><genml:STRUCTURE-ELEMENT NAME="PREIS1" EXTRACTED="2022-06-02T14:06:50" TYPE="VARIABLE"><genml:SUMS><genml:TOGETHER>false</genml:TOGETHER><genml:TOTAL>false</genml:TOTAL></genml:SUMS><genml:LABEL-STRUCTURE><genml:ONLY-YEAR>false</genml:ONLY-YEAR><genml:CONTENTS><genml:CONTENT TYPE="KEY">false</genml:CONTENT><genml:CONTENT TYPE="CLASS-KEY">false</genml:CONTENT><genml:CONTENT TYPE="FED-KEY">false</genml:CONTENT><genml:CONTENT TYPE="KTX">true</genml:CONTENT></genml:CONTENTS><genml:SORT><genml:DIRECTION></genml:DIRECTION><genml:CRITERION></genml:CRITERION></genml:SORT></genml:LABEL-STRUCTURE><genml:TITLE VISIBLE="Y"><genml:TEXT LANG="en" FORMAT="text/plain">Consumer price index</genml:TEXT><genml:TEXT LANG="fr" FORMAT="text/plain">Verbraucherpreisindex</genml:TEXT><genml:TEXT LANG="it" FORMAT="text/plain">Verbraucherpreisindex</genml:TEXT><genml:TEXT LANG="es" FORMAT="text/plain">Verbraucherpreisindex</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">Verbraucherpreisindex</genml:TEXT></genml:TITLE><genml:OUTPUTS><genml:OUTPUT NAME="PREIS1" TYPE="VARIABLE" VISIBLE="true"></genml:OUTPUT></genml:OUTPUTS><genml:OUTPUTFORMATS NAME="PREIS1"><genml:OUTPUTFORMAT LANG="en"><genml:MEASURE-UNIT NAME="2015=100"></genml:MEASURE-UNIT></genml:OUTPUTFORMAT><genml:OUTPUTFORMAT LANG="de"><genml:MEASURE-UNIT NAME="2015=100"></genml:MEASURE-UNIT></genml:OUTPUTFORMAT></genml:OUTPUTFORMATS><genml:MARK> </genml:MARK><genml:IDENT>326216</genml:IDENT><genml:NUMBER>3</genml:NUMBER><genml:PROTECTION></genml:PROTECTION><genml:SELECTION-TYPE>ALL</genml:SELECTION-TYPE><genml:STRUCTURE-ELEMENT-POSITION-TYPE>COLUMN_STRUCTURE</genml:STRUCTURE-ELEMENT-POSITION-TYPE><genml:VARIABLE-TYPE>VALUE</genml:VARIABLE-TYPE><genml:SPLITVIEW>false</genml:SPLITVIEW></genml:STRUCTURE-ELEMENT><genml:STRUCTURE-ELEMENT NAME="PREIS1" EXTRACTED="2022-06-02T14:06:50" TYPE="VARIABLE"><genml:SUMS><genml:TOGETHER>false</genml:TOGETHER><genml:TOTAL>false</genml:TOTAL></genml:SUMS><genml:LABEL-STRUCTURE><genml:ONLY-YEAR>false</genml:ONLY-YEAR><genml:CONTENTS><genml:CONTENT TYPE="KEY">false</genml:CONTENT><genml:CONTENT TYPE="CLASS-KEY">false</genml:CONTENT><genml:CONTENT TYPE="FED-KEY">false</genml:CONTENT><genml:CONTENT TYPE="KTX">true</genml:CONTENT></genml:CONTENTS><genml:SORT><genml:DIRECTION></genml:DIRECTION><genml:CRITERION></genml:CRITERION></genml:SORT></genml:LABEL-STRUCTURE><genml:TITLE VISIBLE="Y"><genml:TEXT LANG="en" FORMAT="text/plain">Annual change</genml:TEXT><genml:TEXT LANG="fr" FORMAT="text/plain">Veränderung zum Vorjahr</genml:TEXT><genml:TEXT LANG="it" FORMAT="text/plain">Veränderung zum Vorjahr</genml:TEXT><genml:TEXT LANG="es" FORMAT="text/plain">Veränderung zum Vorjahr</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">Veränderung zum Vorjahr</genml:TEXT></genml:TITLE><genml:OUTPUTS><genml:OUTPUT NAME="PREIS1" TYPE="VARIABLE" VISIBLE="false"></genml:OUTPUT><genml:OUTPUT NAME="CH0004" TYPE="FUNCTION" VISIBLE="true"></genml:OUTPUT></genml:OUTPUTS><genml:OUTPUTFORMATS NAME="PREIS1"><genml:OUTPUTFORMAT LANG="en"><genml:MEASURE-UNIT NAME="%"></genml:MEASURE-UNIT></genml:OUTPUTFORMAT><genml:OUTPUTFORMAT LANG="de"><genml:MEASURE-UNIT NAME="%"></genml:MEASURE-UNIT></genml:OUTPUTFORMAT></genml:OUTPUTFORMATS><genml:MARK> </genml:MARK><genml:IDENT>326217</genml:IDENT><genml:NUMBER>4</genml:NUMBER><genml:PROTECTION></genml:PROTECTION><genml:SELECTION-TYPE>ALL</genml:SELECTION-TYPE><genml:STRUCTURE-ELEMENT-POSITION-TYPE>COLUMN_STRUCTURE</genml:STRUCTURE-ELEMENT-POSITION-TYPE><genml:VARIABLE-TYPE>VALUE</genml:VARIABLE-TYPE><genml:SPLITVIEW>false</genml:SPLITVIEW><genml:FUNCTIONS><genml:FUNCTION NAME="CH0004" EXTRACTED="2022-10-10T10:10:07"><genml:DECIMALS>-1</genml:DECIMALS><genml:CHANGE><genml:REFERENCE-TIME></genml:REFERENCE-TIME><genml:VALUE-TYPE></genml:VALUE-TYPE><genml:CHANGE-YEAR>2021</genml:CHANGE-YEAR></genml:CHANGE></genml:FUNCTION></genml:FUNCTIONS><genml:FUNCTIONS><genml:FUNCTION NAME="CH0004" EXTRACTED="2022-10-10T10:10:07"><genml:DISPLAY-TEXT><genml:TEXT LANG="en" FORMAT="text/plain">in</genml:TEXT><genml:TEXT LANG="fr" FORMAT="text/plain">in</genml:TEXT><genml:TEXT LANG="it" FORMAT="text/plain">in</genml:TEXT><genml:TEXT LANG="es" FORMAT="text/plain">in</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">in</genml:TEXT></genml:DISPLAY-TEXT><genml:DECIMALS>-1</genml:DECIMALS><genml:CHANGE><genml:REFERENCE-TIME>VJ</genml:REFERENCE-TIME><genml:VALUE-TYPE>PROZENT</genml:VALUE-TYPE><genml:CHANGE-YEAR>-1</genml:CHANGE-YEAR></genml:CHANGE></genml:FUNCTION></genml:FUNCTIONS></genml:STRUCTURE-ELEMENT></genml:AXIS><genml:AXIS POSITION="SECTION"></genml:AXIS><genml:AXIS POSITION="ROW-STRUCTURE"><genml:STRUCTURE-ELEMENT NAME="JAHR" EXTRACTED="2022-06-02T14:06:50" TYPE="VARIABLE" SELECTION="N"><genml:SELECTION NAME="JAHR13992810182462749"></genml:SELECTION><genml:SUMS><genml:TOGETHER>false</genml:TOGETHER><genml:TOTAL>false</genml:TOTAL></genml:SUMS><genml:LABEL-STRUCTURE><genml:ONLY-YEAR>false</genml:ONLY-YEAR><genml:CONTENTS><genml:CONTENT TYPE="KEY">false</genml:CONTENT><genml:CONTENT TYPE="CLASS-KEY">false</genml:CONTENT><genml:CONTENT TYPE="FED-KEY">false</genml:CONTENT><genml:CONTENT TYPE="KTX">true</genml:CONTENT></genml:CONTENTS><genml:SORT><genml:DIRECTION>ASC</genml:DIRECTION><genml:CRITERION>KTX</genml:CRITERION></genml:SORT></genml:LABEL-STRUCTURE><genml:TITLE VISIBLE="Y"><genml:TEXT LANG="en">Year</genml:TEXT><genml:TEXT LANG="fr">Jahr</genml:TEXT><genml:TEXT LANG="it">Jahr</genml:TEXT><genml:TEXT LANG="es">Jahr</genml:TEXT><genml:TEXT LANG="de">Jahr</genml:TEXT></genml:TITLE><genml:OUTPUTS><genml:OUTPUT NAME="JAHR" TYPE="VARIABLE" VISIBLE="true"></genml:OUTPUT></genml:OUTPUTS><genml:MUTABLE-VARIABLES><genml:VARIABLE NAME="JAHR"></genml:VARIABLE></genml:MUTABLE-VARIABLES><genml:MARK> </genml:MARK><genml:IDENT>326218</genml:IDENT><genml:NUMBER>5</genml:NUMBER><genml:PROTECTION></genml:PROTECTION><genml:SELECTION-TYPE>ALL</genml:SELECTION-TYPE><genml:STRUCTURE-ELEMENT-POSITION-TYPE>ROW_STRUCTURE</genml:STRUCTURE-ELEMENT-POSITION-TYPE><genml:VARIABLE-TYPE>TIME_IDENTIFYING</genml:VARIABLE-TYPE><genml:SPLITVIEW>false</genml:SPLITVIEW></genml:STRUCTURE-ELEMENT></genml:AXIS></genml:AXES><genml:STRUCTURE-TYPE>DEFAULT</genml:STRUCTURE-TYPE><genml:MARK> </genml:MARK><genml:IDENT>535</genml:IDENT><genml:PROTECTION>READ</genml:PROTECTION><genml:INSPIRE>false</genml:INSPIRE><genml:EXPLANATION-TRANSFER>false</genml:EXPLANATION-TRANSFER><genml:REGIOSTAT>false</genml:REGIOSTAT><genml:REGIOSTAT-TIMESUFFIX></genml:REGIOSTAT-TIMESUFFIX><genml:LAST-TIMESLICE>0</genml:LAST-TIMESLICE></genml:STRUCTURE></genml:STRUCTURES><genml:RENDERER-SETTINGS><genml:RESULTTABLESETTINGS NAME="61111-0001"><genml:SEPERATEQUALITY>false</genml:SEPERATEQUALITY><genml:REPRESSION>false</genml:REPRESSION><genml:FIELDSTOTAL>62</genml:FIELDSTOTAL><genml:FIELDSPRESENT>61</genml:FIELDSPRESENT></genml:RESULTTABLESETTINGS></genml:RENDERER-SETTINGS><genml:SELECTIONS><genml:SELECTION NAME="JAHR13992810182462749" REFERENCE="JAHR"><genml:REFERENCE NAME="JAHR"></genml:REFERENCE><genml:CHOICE><genml:TIME><genml:CHOICE><genml:DATE>1991</genml:DATE><genml:DATE>1992</genml:DATE><genml:DATE>1993</genml:DATE><genml:DATE>1994</genml:DATE><genml:DATE>1995</genml:DATE><genml:DATE>1996</genml:DATE><genml:DATE>1997</genml:DATE><genml:DATE>1998</genml:DATE><genml:DATE>1999</genml:DATE><genml:DATE>2000</genml:DATE><genml:DATE>2001</genml:DATE><genml:DATE>2002</genml:DATE><genml:DATE>2003</genml:DATE><genml:DATE>2004</genml:DATE><genml:DATE>2005</genml:DATE><genml:DATE>2006</genml:DATE><genml:DATE>2007</genml:DATE><genml:DATE>2008</genml:DATE><genml:DATE>2009</genml:DATE><genml:DATE>2010</genml:DATE><genml:DATE>2011</genml:DATE><genml:DATE>2012</genml:DATE><genml:DATE>2013</genml:DATE><genml:DATE>2014</genml:DATE><genml:DATE>2015</genml:DATE><genml:DATE>2016</genml:DATE><genml:DATE>2017</genml:DATE><genml:DATE>2018</genml:DATE><genml:DATE>2019</genml:DATE><genml:DATE>2020</genml:DATE><genml:DATE>2021</genml:DATE></genml:CHOICE></genml:TIME></genml:CHOICE></genml:SELECTION></genml:SELECTIONS><genml:DATASET-ASSOC><genml:ASSOCIATION NAME="1,2,4,5"><genml:ELEMENT><TYPE>DATASET</TYPE><NAME>DS_002</NAME></genml:ELEMENT></genml:ASSOCIATION><genml:ASSOCIATION NAME="1,2,3,5"><genml:ELEMENT><TYPE>DATASET</TYPE><NAME>DS_002</NAME></genml:ELEMENT></genml:ASSOCIATION></genml:DATASET-ASSOC></genml:DISPLAY-DATA><genml:STATISTICAL-DATA><genml:DATA><genml:DATASET NAME="DS_002" EXTRACTED="2022-06-02T14:06:11" STRUCTURE="TUPLE" TMP-LOCK="N" SECRECY="EMBARGO" STATISTICS="61111"><genml:FEDERATION-OBJECT><genml:FEDERATION TYPE="EU">N</genml:FEDERATION><genml:FEDERATION TYPE="GENESIS">N</genml:FEDERATION><genml:FEDERATION TYPE="REGIOSTAT">N</genml:FEDERATION></genml:FEDERATION-OBJECT><genml:STRUCTURE><genml:AXES><genml:AXIS VARIABLE="DINSG" ORDER="-1" LABEL-ORDER="-1" TYPE="CLASSIFICATION"></genml:AXIS><genml:AXIS VARIABLE="JAHR" ORDER="-1" LABEL-ORDER="-1" TYPE="TIME"></genml:AXIS></genml:AXES><genml:CONTENTS><genml:CONTENT NAME="1" FUNCTION="CH0004" MEASURE-UNIT="%" POWER="0" DECIMALS="1"></genml:CONTENT><genml:CONTENT NAME="2" VARIABLE="PREIS1" MEASURE-UNIT="2015=100" POWER="0" DECIMALS="1"></genml:CONTENT></genml:CONTENTS></genml:STRUCTURE><genml:VALUES><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[1991])" CONTENT="1" QUALITY="." ORIG="0.0"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[1991])" CONTENT="2" QUALITY="e" ORIG="65.5"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[1992])" CONTENT="1" QUALITY="e" ORIG="5.0"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[1992])" CONTENT="2" QUALITY="e" ORIG="68.8"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[1993])" CONTENT="1" QUALITY="e" ORIG="4.5"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[1993])" CONTENT="2" QUALITY="e" ORIG="71.9"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[1994])" CONTENT="1" QUALITY="e" ORIG="2.6"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[1994])" CONTENT="2" QUALITY="e" ORIG="73.8"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[1995])" CONTENT="1" QUALITY="e" ORIG="1.8"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[1995])" CONTENT="2" QUALITY="e" ORIG="75.1"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[1996])" CONTENT="1" QUALITY="e" ORIG="1.3"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[1996])" CONTENT="2" QUALITY="e" ORIG="76.1"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[1997])" CONTENT="1" QUALITY="e" ORIG="2.0"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[1997])" CONTENT="2" QUALITY="e" ORIG="77.6"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[1998])" CONTENT="1" QUALITY="e" ORIG="0.9"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[1998])" CONTENT="2" QUALITY="e" ORIG="78.3"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[1999])" CONTENT="1" QUALITY="e" ORIG="0.6"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[1999])" CONTENT="2" QUALITY="e" ORIG="78.8"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2000])" CONTENT="1" QUALITY="e" ORIG="1.4"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2000])" CONTENT="2" QUALITY="e" ORIG="79.9"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2001])" CONTENT="1" QUALITY="e" ORIG="2.0"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2001])" CONTENT="2" QUALITY="e" ORIG="81.5"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2002])" CONTENT="1" QUALITY="e" ORIG="1.3"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2002])" CONTENT="2" QUALITY="e" ORIG="82.6"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2003])" CONTENT="1" QUALITY="e" ORIG="1.1"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2003])" CONTENT="2" QUALITY="e" ORIG="83.5"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2004])" CONTENT="1" QUALITY="e" ORIG="1.7"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2004])" CONTENT="2" QUALITY="e" ORIG="84.9"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2005])" CONTENT="1" QUALITY="e" ORIG="1.5"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2005])" CONTENT="2" QUALITY="e" ORIG="86.2"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2006])" CONTENT="1" QUALITY="e" ORIG="1.6"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2006])" CONTENT="2" QUALITY="e" ORIG="87.6"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2007])" CONTENT="1" QUALITY="e" ORIG="2.3"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2007])" CONTENT="2" QUALITY="e" ORIG="89.6"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2008])" CONTENT="1" QUALITY="e" ORIG="2.6"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2008])" CONTENT="2" QUALITY="e" ORIG="91.9"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2009])" CONTENT="1" QUALITY="e" ORIG="0.3"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2009])" CONTENT="2" QUALITY="e" ORIG="92.2"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2010])" CONTENT="1" QUALITY="e" ORIG="1.1"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2010])" CONTENT="2" QUALITY="e" ORIG="93.2"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2011])" CONTENT="1" QUALITY="e" ORIG="2.1"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2011])" CONTENT="2" QUALITY="e" ORIG="95.2"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2012])" CONTENT="1" QUALITY="e" ORIG="2.0"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2012])" CONTENT="2" QUALITY="e" ORIG="97.1"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2013])" CONTENT="1" QUALITY="e" ORIG="1.4"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2013])" CONTENT="2" QUALITY="e" ORIG="98.5"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2014])" CONTENT="1" QUALITY="e" ORIG="1.0"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2014])" CONTENT="2" QUALITY="e" ORIG="99.5"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2015])" CONTENT="1" QUALITY="e" ORIG="0.5"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2015])" CONTENT="2" QUALITY="e" ORIG="100.0"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2016])" CONTENT="1" QUALITY="e" ORIG="0.5"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2016])" CONTENT="2" QUALITY="e" ORIG="100.5"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2017])" CONTENT="1" QUALITY="e" ORIG="1.5"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2017])" CONTENT="2" QUALITY="e" ORIG="102.0"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2018])" CONTENT="1" QUALITY="e" ORIG="1.8"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2018])" CONTENT="2" QUALITY="e" ORIG="103.8"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2019])" CONTENT="1" QUALITY="e" ORIG="1.4"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2019])" CONTENT="2" QUALITY="e" ORIG="105.3"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2020])" CONTENT="1" QUALITY="e" ORIG="0.5"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2020])" CONTENT="2" QUALITY="e" ORIG="105.8"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2021])" CONTENT="1" QUALITY="e" ORIG="3.1"></genml:VALUE><genml:VALUE COORDINATE="([DINSG].[DG],[JAHR].[2021])" CONTENT="2" QUALITY="e" ORIG="109.1"></genml:VALUE></genml:VALUES><genml:MARK> </genml:MARK><genml:IDENT>-1</genml:IDENT><genml:PROTECTION></genml:PROTECTION><genml:BASECUBE>N</genml:BASECUBE><genml:DATASETS><genml:DATASET NAME="61111BJ001" EXTRACTED="2022-06-02T14:06:11" STRUCTURE="TUPLE" TMP-LOCK="N" SECRECY="EMBARGO" STATISTICS="61111"><genml:FEDERATION-OBJECT><genml:FEDERATION TYPE="EU">N</genml:FEDERATION><genml:FEDERATION TYPE="GENESIS">N</genml:FEDERATION><genml:FEDERATION TYPE="MKRO">N</genml:FEDERATION><genml:FEDERATION TYPE="AKIS">N</genml:FEDERATION><genml:FEDERATION TYPE="PRG">N</genml:FEDERATION><genml:FEDERATION TYPE="REGIOSTAT">N</genml:FEDERATION></genml:FEDERATION-OBJECT><genml:STRUCTURE><genml:AXES><genml:AXIS VARIABLE="DINSG" ORDER="1" LABEL-ORDER="1" TYPE="CLASSIFICATION"></genml:AXIS><genml:AXIS VARIABLE="JAHR" ORDER="2" LABEL-ORDER="2" TYPE="TIME"></genml:AXIS></genml:AXES><genml:CONTENTS><genml:CONTENT NAME="1" VARIABLE="PREIS1" MEASURE-UNIT="2015=100" POWER="1" TYPE="PERCENTAGE" DECIMALS="1"></genml:CONTENT></genml:CONTENTS></genml:STRUCTURE><genml:MARK> </genml:MARK><genml:IDENT>3551</genml:IDENT><genml:PROTECTION>READ</genml:PROTECTION><genml:BASECUBE>Y</genml:BASECUBE></genml:DATASET></genml:DATASETS><genml:BASECUBE-OBJECT><genml:NAME>61111BJ001</genml:NAME></genml:BASECUBE-OBJECT></genml:DATASET></genml:DATA><genml:METADATA><genml:VARIABLES><genml:VARIABLE NAME="PREIS1" EXTRACTED="2022-06-02T14:06:10" MODIFIED="2019-02-15T15:02:03" CREATED="2002-01-31T14:01:07" TMP-LOCK="N"><genml:SHORT-DESCRIPTION><genml:TEXT LANG="en" FORMAT="text/plain">Consumer price index</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">Verbraucherpreisindex</genml:TEXT></genml:SHORT-DESCRIPTION><genml:TOPIC>N</genml:TOPIC><genml:TYPE>W</genml:TYPE><genml:FEDERATION-OBJECT><genml:FEDERATION TYPE="EU">N</genml:FEDERATION><genml:FEDERATION TYPE="GENESIS">N</genml:FEDERATION><genml:FEDERATION TYPE="MKRO">N</genml:FEDERATION><genml:FEDERATION TYPE="AKIS">N</genml:FEDERATION><genml:FEDERATION TYPE="PRG">N</genml:FEDERATION><genml:FEDERATION TYPE="REGIOSTAT">N</genml:FEDERATION></genml:FEDERATION-OBJECT><genml:SUMMABLE>N</genml:SUMMABLE><genml:STOCK>N</genml:STOCK><genml:REPRESENTATION></genml:REPRESENTATION><genml:VALIDITY><genml:FROM>1950-01-01</genml:FROM></genml:VALIDITY><genml:VALUE-COUNT>0</genml:VALUE-COUNT><genml:DEFINITION><genml:TEXT LANG="en" FORMAT="text/plain">Consumer price index
+
+Explanatory notes for the following statistics:
+61111 Consumer price index for Germany
+
+Definition:
+
+What does the consumer price index describe?
+
+The consumer price index for Germany measures the average
+price change for all goods and services purchased by
+households for consumption purposes. Such goods and
+services are, for example, food, clothing and motor
+vehicles as well as rents, cleaning services and repairs.
+According to the domestic concept all expenditure is
+considered which is carried out in the territory of
+Germany. Hence, in addition to expenditure of single-person
+households, married couples, families or couples of
+pensioners also the expenditure of foreign tourists are
+included. The percentage change of the consumer price index
+to the same month of the previous year or to the previous
+year is colloquially also called inflation rate.
+
+The consumer price index, which is the central indicator to
+judge monetary value trends in Germany, is used as a
+benchmark, for instance, in wage negotiations or in
+agreement clauses regarding the level of recurring payments
+(so-called stable-value clauses). It is also used for
+deflation purposes in national accounts, for instance, in
+the context of calculating real economic growth. The
+harmonised index of consumer prices, which is the index
+adjusted for international purposes, is above all used by
+the European Central Bank to assess inflation in Germany.
+
+
+How is the consumer price index calculated?
+
+- Basket of goods and services:
+Calculating the consumer price index is based on a "basket"
+which includes all goods and services that are relevant
+components of consumption in Germany. The basket could be
+said to have two levels of content.
+At the upper level the basket contains approximately 650
+types of goods as, for example, salt, children’s shirt,
+taxi ride or magazine. These types of goods are assigned
+weighting shares (weights), with which the various price
+trends are included in the computation of the total
+consumer price index. At this level the basket including
+the weights remains constant over a time period of five
+years.
+For the types of goods of the upper level of the basket
+precise products are selected for price collection in each
+selected shop, for example a 500 gram package iodised salt.
+These precise products comprise the lower level of the
+basket. At this level of individual price representatives
+the basket is continuously updated, as vanishing models or
+models which become less important need to be replaced or
+completely new variants need to be added.
+Concrete products are selected for price monitoring in the
+context of representative sample surveys. Therefore, first
+of all the whole federal territory is divided into 94
+regions. Usually in every region first representative
+cities and municipalities are chosen. In these cities and
+municipalities then representative shops and there the most
+frequently sold goods and services are selected. The number
+of selected goods and services is based on the share of
+expenditures for a type of good in the total household
+final consumption expenditure. In order to cover the whole
+range of household final consumption expenditure, also for
+less important categories goods and services need to be
+included in the sample.
+
+- Price collection:
+To measure price trends, more than 300,000 individual prices
+are collected manually at retail stores and service units.
+This usual price collection includes on the one hand the
+decentralised price collection by price collectors in shops
+all over Germany and on the other hand the central price
+collection, which takes place mainly as a survey on the
+internet.
+The additional use of digital data sources allows the
+statistical offices to increase the number of monthly price
+observations significantly. For example, for sectors with
+particularly complex pricing, such as package holidays or
+premiums for motor vehicle insurance, additional data
+sources with a high number of observations are used. In
+addition, modern survey methods such as Web Scraping are
+utilised. Web Scraping is an automated extraction of
+internet data. Using such procedures, the number of monthly
+price observations for online trade and for selected
+services - such as rental cars or long-distance coaches -
+has been extended considerably in the light of dynamic
+price changes.
+The prices taken for price observation are purchaser's
+prices (including VAT and excise duties). An item once
+selected for price observation is however replaced by
+another item, if it is sold either seldom or no longer.
+
+- Quantity and quality changes:
+Quantity changes are also considered in price comparisons.
+If, for instance, a seller changes the quantity of a
+product included in a definite package, while the price
+remains the same, price statistics will record such changes
+as price increases.
+In addition, qualitative changes are taken into
+consideration. This applies, for instance, to goods which
+are subject to technological progress. Quality adjustments
+are essential for the calculation of price indices. Model
+changes as well as changes in terms of contract may involve
+quality changes, which often influence but not fully
+explain the price difference between replaced and
+replacement model. In these cases the price changes that
+result only from qualitative changes are quantified and
+eliminated from the index calculation. Without quality
+adjustment, improvements or deteriorations of product
+quality would to full extent affect price indices. A
+reasonable interpretation of the measured price development
+would thus hardly be possible.
+
+- Weighting pattern:
+As a next step, the products included in the basket of goods
+and services are broken down by approximately 650 types of
+products (upper level of the basket). To calculate the
+overall rate of price increase, the average price trend for
+a type of product is weighted with the average proportion
+of the budget that households spend on this product type.
+The result is a weighted average reflecting the price trend
+in Germany. The weighting information is included in what
+is called a weighting pattern (see 61111-0007). The
+weighting pattern used for the compilation of the consumer
+price index is updated at five-year intervals in order to
+reflect the genuine price development irrespective of
+changes in expenditure weights.
+The essential basis for determining the weighting pattern is
+the sample survey of income and expenditure. The number of
+participants in this household budget survey amounts to
+approximately 60,000. All five years, the participants
+record their income and expenditure on a voluntary basis
+over a period of several months, and they transmit the
+relevant information to the statistical offices of the
+Länder. The basic information obtained in this manner is
+completed and updated by data of the continuous household
+budget surveys, which provide information on the detailed
+breakdown of household final consumption expenditure by
+individual types of goods and services. Subsequently, these
+results are verified and, if necessary, revised by using
+additional information. The shares of expenditure for the
+individual types of goods and services are based on the
+total final household consumption expenditure in the base
+year. For example if a household did not buy a durable
+consumer good in the base year, its expenditures are
+nevertheless counted. In this way it is taken into
+consideration that households in general do not buy a
+washing machine, a television, a car or something similar
+every year.
+
+
+© Statistisches Bundesamt, Wiesbaden 2019</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">Verbraucherpreisindex
+
+Erläuterung für folgende Statistik(en):
+61111 Verbraucherpreisindex für Deutschland
+
+Begriffsinhalt:
+
+Was beschreibt der Verbraucherpreisindex?
+
+Der Verbraucherpreisindex für Deutschland misst die
+durchschnittliche Preisentwicklung aller Waren und
+Dienstleistungen, die private Haushalte für Konsumzwecke
+kaufen. Darunter fallen zum Beispiel Nahrungsmittel,
+Bekleidung und Kraftfahrzeuge ebenso wie Mieten,
+Reinigungsdienstleistungen oder Reparaturen. Nach dem
+Inlandskonzept werden alle Ausgaben berücksichtigt, die in
+Deutschland getätigt werden, d.h. neben den Ausgaben von
+beispielsweise Single-Haushalten, Ehepaaren, Familien oder
+Rentnerehepaaren auch die Ausgaben ausländischer Touristen.
+Die Veränderung des Verbraucherpreisindex zum
+Vorjahresmonat bzw. zum Vorjahr wird umgangssprachlich auch
+als Inflationsrate bezeichnet.
+
+Der Verbraucherpreisindex ist der zentrale Indikator zur
+Beurteilung der Geldwertentwicklung in Deutschland und wird
+als Orientierungsmaßstab etwa bei Lohnverhandlungen oder in
+vertraglichen Vereinbarungen über die Höhe von wieder-
+kehrenden Zahlungen (sogenannte Wertsicherungsklauseln)
+verwendet. Er dient weiterhin zur Deflationierung in den
+Volkswirtschaftlichen Gesamtrechnungen, beispielsweise bei
+der Berechnung des realen Wirtschaftswachstums. Aufbauend
+auf dem VPI wird durch methodische Anpassungen ein
+international vergleichbarer Harmonisierter
+Verbraucherpreisindex berechnet. Er dient insbesondere der
+Europäischen Zentralbank zur Beurteilung der Inflation.
+
+
+Wie wird der Verbraucherpreisindex berechnet?
+
+- Warenkorb:
+Bei der Berechnung des Verbraucherpreisindex geht man von
+einem "Warenkorb" aus, der sämtliche von privaten
+Haushalten in Deutschland gekaufte Waren und
+Dienstleistungen repräsentiert. Der Warenkorb lässt sich
+auf zwei Ebenen betrachten.
+Die obere Ebene umfasst rund 650 Güterarten wie
+beispielsweise Salz, Kindershirt, Taxifahrt oder
+Zeitschrift. Diesen Güterarten sind Wägungsanteile
+(Gewichte) zugeordnet, mit denen die jeweiligen
+Preisentwicklungen in den Gesamtindex einfließen. Auf
+dieser Ebene bleibt der Warenkorb einschließlich der
+Gewichte über fünf Jahre konstant.
+Für die Güterarten der oberen Ebene des Warenkorbes werden
+anschließend in jedem ausgewählten Geschäft konkrete
+Einzelprodukte, zum Beispiel eine Packung mit 500 g
+Jodsalz, für die Preismessung ausgewählt. Diese konkreten
+Einzelprodukte stellen die untere Ebene des Warenkorbes
+dar. Auf dieser Ebene der einzelnen Preisrepräsentanten
+wird der Warenkorb ständig angepasst, da wegfallende oder
+an Marktbedeutung verlierende Güter ersetzt oder neue
+Gütervarianten aufgenommen werden.
+Die Auswahl von Produkten erfolgt in Form von
+repräsentativen Stichproben. Hierfür wird zunächst das
+gesamte Bundesgebiet in 94 Regionen aufgeteilt. Im
+Anschluss werden in jeder dieser Regionen in der Regel
+repräsentative Städte und Gemeinden, dort dann
+repräsentative Geschäfte und darin die am häufigsten
+verkauften Produkte ausgewählt. Die Zahl der ausgewählten
+Produkte orientiert sich tendenziell am Anteil der Ausgaben
+für eine Güterart an den gesamten Ausgaben für den privaten
+Konsum. Auch für weniger bedeutende Bereiche müssen
+Produkte aufgenommen werden, um die gesamte Bandbreite des
+privaten Konsums abzudecken. 
+
+- Preiserfassung:
+Für die Messung der Preisentwicklung der einzelnen Güter des
+Warenkorbes werden monatlich mehr als 300.000 Einzelpreise
+in Handels- und Dienstleistungsunternehmen manuell erhoben.
+Diese bisher übliche Preiserhebung umfasst einerseits die
+dezentrale Preiserhebung durch Preiserheber in Geschäften
+in ganz Deutschland und andererseits die zentrale
+Preiserhebung, welche hauptsächlich als Erhebung im
+Internet erfolgt.
+Die ergänzende Nutzung digitaler Datenquellen ermöglicht es
+den Statistischen Ämtern, die Zahl der monatlichen
+Preisbeobachtungen deutlich zu erhöhen. So werden zum
+Beispiel für Güterbereiche mit besonders komplexer
+Preisgestaltung – wie Pauschalreisen oder Beiträge zu Kfz-
+Versicherungen – zusätzliche Datenquellen mit hoher
+Beobachtungszahl genutzt. Darüber hinaus kommen moderne
+Erhebungsmethoden wie Web Scraping zum Einsatz. Hierbei
+handelt es sich um ein automatisiertes Auslesen von
+Internetdaten. Für den Onlinehandel und für ausgewählte
+Dienstleistungen – wie zum Beispiel für Mietwagennutzung
+oder Reisen per Fernbus – wird die Zahl der monatlichen
+Preisbeobachtungen angesichts dynamischer Preisänderungen
+mit Hilfe derartiger Verfahren deutlich ausgeweitet.
+Für die Preismessung werden die Anschaffungspreise
+einschließlich Umsatzsteuer (Mehrwertsteuer) und
+Verbrauchssteuern beobachtet. Ein einmal für die
+Preisbeobachtung ausgewählter Artikel wird dann gegen einen
+anderen ausgetauscht, wenn er nicht mehr oder nur noch
+wenig verkauft wird. 
+
+- Mengen- und Qualitätsänderungen:
+Beim Preisvergleich werden auch Mengenänderungen
+eingerechnet. Verringert zum Beispiel ein Anbieter die
+Verpackungsgröße eines Produktes bei gleich bleibendem
+Preis, wird dies in der Preisstatistik wie eine
+Preiserhöhung behandelt. 
+Weiterhin werden Qualitätsänderungen berücksichtigt – zum
+Beispiel bei Gütern mit technischem Fortschritt.
+Qualitätsbereinigungen sind bei der Berechnung von
+Preisindizes zwingend notwendig. Modellwechsel können
+ebenso wie Änderungen von Vertragskonditionen mit
+Qualitätsänderungen einhergehen, die sich zwar im Preis
+niederschlagen können, aber nicht vollständig den
+Preisunterschied zwischen altem und neuem Produkt bedingen
+müssen. In diesen Fällen wird der durch die
+Qualitätsunterschiede hervorgerufene Preisunterschied
+quantifiziert und bei der Indexermittlung herausgerechnet.
+Ohne eine solche Qualitätsbereinigung würden sich
+Verbesserungen oder Verschlechterungen der Güterqualität in
+den Preisindizes voll niederschlagen. Damit wäre eine
+sinnvolle Interpretation der gemessenen Preisentwicklung
+erschwert.
+
+- Wägungsschema:
+Zur Berechnung des Verbraucherpreisindex für Deutschland
+werden die Güter des Warenkorbs zunächst in rund 650
+Güterarten eingeteilt (obere Warenkorbebene). Die
+durchschnittliche Preisentwicklung gegenüber dem Basisjahr
+für eine Güterart wird dann jeweils mit dem Ausgabenanteil
+gewichtet, welchen die privaten Haushalte in Deutschland
+für diese Güterart ausgeben. Das Gesamtergebnis ist ein
+gewichteter Mittelwert für die Preisentwicklung in
+Deutschland. Die Ausgabenanteile bzw. die
+Gewichtungsinformationen sind im sogenannten Wägungsschema
+(siehe 61111-0007) enthalten. Dieses wird in der Regel nur
+alle fünf Jahre aktualisiert, um innerhalb des
+Fünfjahreszeitraums die reine Preisentwicklung darstellen
+zu können, unbeeinflusst von Änderungen in der
+Zusammensetzung der Grundgesamtheit.
+Die wesentliche Basis für die Berechnung des Wägungsschemas
+ist die Einkommens- und Verbrauchsstichprobe. Die rund
+60.000 Teilnehmer dieser Haushaltsbudgeterhebung zeichnen
+alle fünf Jahre freiwillig einige Monate lang ihre
+Einnahmen und Ausgaben auf und übermitteln diese
+Informationen an die Statistischen Landesämter. Die so
+gewonnenen Basisinformationen werden durch Daten aus den
+Laufende Wirtschaftsrechnungen, welche Informationen über
+die genaue Aufteilung der Haushaltsausgaben auf einzelne
+Güterarten liefern, ergänzt und aktualisiert. Diese
+Ergebnisse werden anschließend anhand zusätzlicher
+Informationen überprüft und gegebenenfalls angepasst. Die
+Ausgabenanteile für die einzelnen Güterarten basieren auf
+den Ausgaben aller Haushalte im Basisjahr. Wenn zum
+Beispiel ein Haushalt im Basisjahr keine langlebigen
+Gebrauchsgüter gekauft hat, werden seine Ausgaben dennoch
+mitgezählt. Auf diese Weise wird berücksichtigt, dass man
+in der Regel nicht jedes Jahr eine Waschmaschine, einen
+Fernseher, Pkw oder ähnliches kauft.
+
+
+© Statistisches Bundesamt, Wiesbaden 2019</genml:TEXT></genml:DEFINITION><genml:MARK> </genml:MARK><genml:IDENT>2</genml:IDENT><genml:PROTECTION>CHANGE</genml:PROTECTION><genml:CHILD_VARIABLE_COUNT>1</genml:CHILD_VARIABLE_COUNT><genml:VISUAL_RIGHTS><genml:VISUAL_RIGHT><genml:TYPE>DIAGRAM</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>GIS-VIEWER</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>INSPIRE-VIEW</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>MAP</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>TABLE</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT></genml:VISUAL_RIGHTS></genml:VARIABLE><genml:VARIABLE NAME="JAHR" EXTRACTED="2022-06-02T14:06:10" MODIFIED="2016-01-25T13:01:47" CREATED="2002-01-31T14:01:59" TMP-LOCK="N"><genml:SHORT-DESCRIPTION><genml:TEXT LANG="en" FORMAT="text/plain">Year</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">Jahr</genml:TEXT></genml:SHORT-DESCRIPTION><genml:TOPIC>N</genml:TOPIC><genml:TYPE>ZI</genml:TYPE><genml:FEDERATION-OBJECT><genml:FEDERATION TYPE="EU">N</genml:FEDERATION><genml:FEDERATION TYPE="GENESIS">N</genml:FEDERATION><genml:FEDERATION TYPE="MKRO">N</genml:FEDERATION><genml:FEDERATION TYPE="AKIS">N</genml:FEDERATION><genml:FEDERATION TYPE="PRG">N</genml:FEDERATION><genml:FEDERATION TYPE="REGIOSTAT">N</genml:FEDERATION></genml:FEDERATION-OBJECT><genml:SUMMABLE>N</genml:SUMMABLE><genml:STOCK>N</genml:STOCK><genml:REPRESENTATION>YEAR</genml:REPRESENTATION><genml:VALIDITY></genml:VALIDITY><genml:VALUE-COUNT>0</genml:VALUE-COUNT><genml:FORMAT>yyyy</genml:FORMAT><genml:MARK> </genml:MARK><genml:IDENT>47</genml:IDENT><genml:PROTECTION>CHANGE</genml:PROTECTION><genml:CHILD_VARIABLE_COUNT>1</genml:CHILD_VARIABLE_COUNT><genml:VISUAL_RIGHTS><genml:VISUAL_RIGHT><genml:TYPE>DIAGRAM</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>GIS-VIEWER</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>INSPIRE-VIEW</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>MAP</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>TABLE</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT></genml:VISUAL_RIGHTS></genml:VARIABLE><genml:VARIABLE NAME="DINSG" EXTRACTED="2022-06-02T14:06:10" MODIFIED="2016-01-25T13:01:17" CREATED="2002-01-31T15:01:49" TMP-LOCK="N"><genml:SHORT-DESCRIPTION><genml:TEXT LANG="en" FORMAT="text/plain">Germany</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">Deutschland insgesamt</genml:TEXT></genml:SHORT-DESCRIPTION><genml:TOPIC>N</genml:TOPIC><genml:TYPE>RKG</genml:TYPE><genml:FEDERATION-OBJECT><genml:FEDERATION TYPE="EU">N</genml:FEDERATION><genml:FEDERATION TYPE="GENESIS">N</genml:FEDERATION><genml:FEDERATION TYPE="MKRO">N</genml:FEDERATION><genml:FEDERATION TYPE="AKIS">N</genml:FEDERATION><genml:FEDERATION TYPE="PRG">N</genml:FEDERATION><genml:FEDERATION TYPE="REGIOSTAT">N</genml:FEDERATION></genml:FEDERATION-OBJECT><genml:BREAKDOWN-TYPE>OF-WHICH</genml:BREAKDOWN-TYPE><genml:DEFAULT-SORT-ORDER>KEY</genml:DEFAULT-SORT-ORDER><genml:SUMMABLE>N</genml:SUMMABLE><genml:STOCK>N</genml:STOCK><genml:REPRESENTATION></genml:REPRESENTATION><genml:VALIDITY><genml:FROM>1950-01-01</genml:FROM></genml:VALIDITY><genml:VALUE-COUNT>1</genml:VALUE-COUNT><genml:MARK> </genml:MARK><genml:IDENT>99</genml:IDENT><genml:PROTECTION>CHANGE</genml:PROTECTION><genml:CHILD_VARIABLE_COUNT>1</genml:CHILD_VARIABLE_COUNT><genml:VISUAL_RIGHTS><genml:VISUAL_RIGHT><genml:TYPE>DIAGRAM</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>GIS-VIEWER</genml:TYPE><genml:VISIBLE>false</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>INSPIRE-VIEW</genml:TYPE><genml:VISIBLE>false</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>MAP</genml:TYPE><genml:VISIBLE>false</genml:VISIBLE></genml:VISUAL_RIGHT><genml:VISUAL_RIGHT><genml:TYPE>TABLE</genml:TYPE><genml:VISIBLE>true</genml:VISIBLE></genml:VISUAL_RIGHT></genml:VISUAL_RIGHTS></genml:VARIABLE></genml:VARIABLES><genml:VALUES><genml:VALUE NAME="DG" EXTRACTED="2022-06-02T14:06:11" MODIFIED="2016-01-22T14:01:05" CREATED="2002-02-01T12:02:50"><genml:SHORT-DESCRIPTION><genml:TEXT LANG="en" FORMAT="text/plain">Germany</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">Deutschland</genml:TEXT></genml:SHORT-DESCRIPTION><genml:FEDERATION-OBJECT><genml:FEDERATION TYPE="EU">N</genml:FEDERATION><genml:FEDERATION TYPE="GENESIS">N</genml:FEDERATION><genml:FEDERATION TYPE="MKRO">N</genml:FEDERATION><genml:FEDERATION TYPE="AKIS">N</genml:FEDERATION><genml:FEDERATION TYPE="PRG">N</genml:FEDERATION><genml:FEDERATION TYPE="REGIOSTAT">N</genml:FEDERATION></genml:FEDERATION-OBJECT><genml:VARIABLE-COUNT>-1</genml:VARIABLE-COUNT></genml:VALUE></genml:VALUES><genml:STATS><genml:STATISTICS NAME="61111" EXTRACTED="2022-06-02T14:06:11" MODIFIED="2021-12-10T18:12:53" CREATED="2002-01-29T15:01:09"><genml:SHORT-DESCRIPTION><genml:TEXT LANG="en" FORMAT="text/plain">Consumer price index for Germany</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">Verbraucherpreisindex für Deutschland</genml:TEXT></genml:SHORT-DESCRIPTION><genml:EXPLANATION><genml:TEXT LANG="en" FORMAT="text/plain">1  General information on the statistics
+========================================
+
+Name of the statistics:
+Consumer price index for Germany (EVAS-No. 61111).
+
+Statistical population: 
+The prices of all goods and services purchased for
+consumption purposes by households in the domestic
+territory.
+
+Statistical unit: 
+The prices of unvarying products or product offers and also
+quantities, discounts and other characteristics that are
+crucial for the quality of the products offered are
+observed.
+
+Reference area: 
+Consumer price indices are compiled for the Federal Republic
+of Germany as a whole and for all Länder.
+
+Frequency of data collection: 
+Prices are collected and results are published every month.
+
+Legal acts and other agreements: 
+Act on Statistics for Federal Purposes, Price Statistics
+Act, European Regulation.
+
+
+2  Content and user needs
+=========================
+
+Statistical presentation: 
+Price index series are provided for household final
+consumption expenditure in Germany in the form of totals
+and for individual aggregates.
+
+Statistical concepts and definitions: 
+The prices recorded are those actually paid including
+turnover tax and all other excise duties.
+
+User needs: 
+The consumer price index is used especially as inflation
+measure, as compensation benchmark (stable-value clauses in
+private-law contracts) and for deflation purposes for
+adjusting nominal aggregates of economic statistics.
+
+
+3  Methodology
+==============
+
+Source data: 
+While prices are collected to identify price trends,
+secondary statistics are used to calculate the relevant
+weighting patterns.
+
+Data collection: 
+Different forms are used for data collection, for example
+databases, data collection from the internet.
+
+Data compilation: 
+A Laspeyres index is calculated from the prices collected.
+Enclosed, differences by product type, outlet-type and Land
+are considered by weighting.
+
+
+4  Accuracy and reliability
+===========================
+
+Overall accuracy: 
+An accuracy of 0.1 percentage points is sought for the
+overall consumer price index, while inaccuracies are larger
+at finer levels.
+
+Data revision: 
+At every method change-induced revision (normally every five
+years) the results are analysed and published.
+
+
+5  Timeliness and punctuality
+=============================
+
+Timeliness: 
+Generally, provisional results are published shortly before
+the end of a month. Final results are published around the
+middle of the month following the reference month.
+
+Punctuality: 
+All preannounced release dates have been met to date.
+
+
+6  Comparability
+================
+
+Comparability -georaphical: 
+In geographical terms, the indices of the individual Länder
+are fully comparable.
+
+Comparability over time: 
+Comparability over time is fully ensured between two method
+change-induced revisions.
+
+
+7  Coherence
+============
+
+Coherence - cross domain: 
+The Consumer price index, the Harmonised index of consumer
+prices and the Retail price index are derived from the same
+database by different methods.
+
+
+8  Dissemination and communication
+==================================
+
+Dissemination format: 
+Results on the consumer price index are provided on the
+website of the Federal Statistical Office at
+www.destatis.de in a press release, in online tables, in
+the publications of the Fachserie 17, Reihe 7 and in the
+GENESIS-Online database.
+
+Contact information: 
+Statistisches Bundesamt
+Gustav-Stresemann-Ring 11
+65189 Wiesbaden
+
+Tel: +49 (0) 611 / 75 4777
+www.destatis.de/contact
+
+
+© Statistisches Bundesamt, Wiesbaden 2021</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">1  Allgemeine Angaben zur Statistik
+===================================
+
+1.1 Bezeichnung der Statistik
+Verbraucherpreisindex für Deutschland (EVAS-Nr. 61111).
+
+1.2 Grundgesamtheit
+Grundgesamtheit des Verbraucherpreisindex (VPI) sind die
+Preise aller Waren und Dienstleistungen, die im Inland von
+privaten Haushalten für Konsumzwecke gekauft werden. Im
+nationalen Verbraucherpreisindex sind zudem unterstellte
+Mieten der privaten Haushalte für selbstgenutztes
+Wohneigentum berücksichtigt. Nicht zur Grundgesamtheit
+gehören zum Beispiel Sozialbeiträge (wie Beiträge zur
+gesetzlichen Krankenversicherung), Übertragungen (wie
+Spenden oder Strafzahlungen) oder auch Käufe bei anderen
+privaten Haushalten (zum Beispiel Gebrauchtwaren).
+
+1.3 Statistische Einheiten (Darstellungs- und 
+    Erhebungseinheiten)
+Erhebungseinheit: 
+Erhoben werden die Preise in repräsentativ ausgewählten
+Einzelhandels- und Dienstleistungseinheiten (zum Beispiel
+Unternehmen, Betriebe, Filialen), einschließlich
+öffentlich-rechtlicher und staatlicher Anbieter. Private
+Haushalte, die eine (oder mehrere) Wohnung(en) an andere
+private Haushalte vermieten, gelten als Dienstleister
+(Unternehmen) und sind damit ebenfalls Erhebungseinheit.
+
+Beobachtungseinheit: 
+Beobachtet werden die Preise für jeweils gleichbleibende
+Produkte beziehungsweise Produktangebote sowie Mengen,
+Rabatte und weitere für die Qualität des Produktangebotes
+ausschlaggebende Merkmale. Ein für die Preisbeobachtung
+ausgewähltes Produkt wird gegen ein anderes ausgetauscht,
+wenn es nicht mehr oder nur noch wenig verkauft wird. Es
+werden die tatsächlich von den privaten Haushalten
+gezahlten Verkaufspreise einschließlich aller darauf
+lastenden Verbrauchsteuern erfasst.
+
+Darstellungseinheit: 
+Die Ergebnisse des Verbraucherpreisindex werden als
+Gesamtergebnis und in fachlicher Gliederung auf der
+tiefsten Veröffentlichungsebene für rund 650 Güterarten
+(Verwendungszwecke) veröffentlicht. Alle Ergebnisse werden
+als Preisindizes (Messzahlen) dargestellt. Ergänzend werden
+teilweise Veränderungsraten zum Vorjahresmonat
+beziehungsweise Vormonat ausgewiesen.
+
+1.4 Räumliche Abdeckung
+Verbraucherpreisindizes werden für die Bundesrepublik
+Deutschland insgesamt und für alle Bundesländer berechnet.
+Für das Bundesgebiet werden der Gesamtindex und einzelne
+Teilindizes bis zur tiefsten fachlichen Gliederungsebene
+sowie für Sondergliederungen veröffentlicht. Für die
+Bundesländer veröffentlicht das Statistische Bundesamt
+jeweils den Verbraucherpreisindex insgesamt sowie den Index
+der Nettokaltmiete. Die Statistischen Landesämter
+veröffentlichen in der Regel weitere Landesergebnisse.
+
+1.5 Berichtszeitraum/-zeitpunkt
+Berichtszeitraum ist der jeweilige Kalendermonat. Die
+Preiserhebung findet in einem Zeitraum von mindestens einer
+Woche um die Monatsmitte statt. Für Güter, deren Preise im
+Monatsverlauf stark schwanken, wird der Erhebungszeitraum
+ausgedehnt. Das betrifft beispielsweise Mineralölprodukte,
+frisches Obst und Gemüse sowie Bekleidung. Zusätzlich
+werden Ergebnisse für das Kalenderjahr berechnet und
+veröffentlicht.
+
+1.6 Periodizität
+Die Preiserhebung und die Veröffentlichung der Ergebnisse
+erfolgen monatlich.
+
+1.7 Rechtsgrundlagen und andere Vereinbarungen
+Auf nationaler Ebene sind für den Verbraucherpreisindex die
+für die Preisstatistik gültigen nationalen Rechtsgrundlagen
+von Bedeutung:
+- Gesetz über die Statistik für Bundeszwecke 
+  (Bundesstatistikgesetz - BStatG)
+- Gesetz über die Preisstatistik (PreisStatG).
+Der Wortlaut der nationalen Rechtsvorschriften in der
+jeweils geltenden Fassung ist unter
+https://www.gesetze-im-internet.de zu finden.
+Da der Verbraucherpreisindex und der für europäische Zwecke
+berechnete Harmonisierte Verbraucherpreisindex aus der
+gleichen Datenbasis abgeleitet werden, ist auch die
+europäische Gesetzgebung für den deutschen
+Verbraucherpreisindex von Bedeutung. Zu nennen sind hier
+die Verordnung (EU) Nr. 2016/792 sowie die
+Durchführungsverordnung (EU) 2020/1148.
+Die Rechtsakte der EU in der jeweils geltenden Fassung und
+in deutscher Sprache sind auf der Internetseite des Amtes
+für Veröffentlichungen der Europäischen Union unter
+http://eur-lex.europa.eu/ zu finden.
+
+1.8 Geheimhaltung
+1.8.1 Geheimhaltungsvorschriften
+Die erhobenen Einzelangaben werden nach § 16 BStatG
+grundsätzlich geheim gehalten. Nur in ausdrücklich
+gesetzlich geregelten Ausnahmefällen dürfen Einzelangaben
+übermittelt werden. Nach § 16 Absatz 6 BStatG ist es
+zulässig, den Hochschulen oder sonstigen Einrichtungen mit
+der Aufgabe unabhängiger wissenschaftlicher Forschung für
+die Durchführung wissenschaftlicher Vorhaben
+- Einzelangaben zu übermitteln, wenn die Einzelangaben so
+anonymisiert sind, dass sie nur mit einem unverhältnismäßig
+großen Aufwand an Zeit, Kosten und Arbeitskraft den
+Befragten oder Betroffenen zugeordnet werden können
+(faktisch anonymisierte Einzelangaben),
+- innerhalb speziell abgesicherter Bereiche des
+Statistischen Bundesamtes und der statistischen Ämter der
+Länder Zugang zu Einzelangaben ohne Name und Anschrift
+(formal anonymisierte Einzelangaben) zu gewähren, wenn
+wirksame Vorkehrungen zur Wahrung der Geheimhaltung
+getroffen werden. Die Pflicht zur Geheimhaltung besteht
+auch für Personen, die Einzelangaben erhalten.
+
+1.8.2 Geheimhaltungsverfahren
+Es werden auch auf der tiefsten Veröffentlichungsebene nur
+stark aggregierte Ergebnisse veröffentlicht. Das
+Auswahlverfahren stellt sicher, dass veröffentlichte
+Ergebnisse durch eine hinreichend große Zahl von
+Preisbeobachtungen abgesichert sind.
+
+1.9 Qualitätsmanagement
+1.9.1 Qualitätssicherung
+Die Erstellung des Verbraucherpreisindex für Deutschland
+(VPI) folgt den umfangreichen Vorschriften in den
+Rechtsgrundlagen und den unter anderem in
+Methodenhandbüchern dokumentierten methodischen Vorgaben
+und Anforderungen, die sich im Wesentlichen auch aus
+europäischen Vorgaben für den Harmonisierten
+Verbraucherpreisindex (HVPI) ableiten. Abweichungen beim
+nationalen Verbraucherpreisindex werden dokumentiert und
+den Nutzern erläutert. Die Liefer- und
+Veröffentlichungstermine für den Verbraucherpreisindex
+werden vor Beginn jeden Jahres zwischen den Statistischen
+Ämtern des Bundes und der Länder abgestimmt und festgelegt.
+Diese Termine sind öffentlich und unterliegen einer
+besonderen Kontrolle.
+Für die Berechnungen wird ein Aufbereitungsprogramm
+eingesetzt, welches die Abläufe von der Preiserhebung bis
+zur Ergebnisberechnung steuert und (fast) alle Berechnungen
+durchführt und nachvollziehbar dokumentiert. In jede
+Bearbeitungsstufe sind Plausibilitätskontrollen eingebaut,
+die fehlerhafte Eingaben verhindern und bei auffälligen
+Eingaben Warnmeldungen ausgeben. Kritische Eingaben durch
+die Preiserheber müssen durch besonders geschultes Personal
+der Statistischen Ämter bestätigt und/oder konkretisiert
+werden. Zusätzlich werden von dem Aufbereitungsprogramm
+Kennzahlen als Grundlage weitergehender Qualitätskontrollen
+berechnet. Dazu gehört unter anderem auch, dass nach der
+Berechnung der Länderergebnisse die auffälligsten
+Ergebnisse für jede Güterart aufgelistet und durch
+besonders geschultes Personal der Statistischen Ämter
+geprüft werden müssen. Die Länderergebnisse werden von
+besonders geschultem Personal des Statistischen Bundesamts
+ein weiteres Mal miteinander verglichen. Bei starken
+Abweichungen werden die Daten nochmals geprüft.
+Die Arbeitsgruppe "Preiserhebung in der
+Verbraucherpreisstatistik" mit Vertretern des Statistischen
+Bundesamtes und der Statistischen Landesämter analysiert
+regelmäßig Schwachstellen im Prozess der
+Statistikproduktion und entwickelt Verfahren zur
+Verbesserung der Qualität.
+Eurostat, das Statistische Amt der Europäischen Union, führt
+für den Harmonisierten Verbraucherpreisindex eigene
+Datenkontrollen durch, fordert regelmäßig Berichte über die
+nationalen Berechnungspraktiken an und überprüft im Rahmen
+sogenannter "Compliance Monitoring Besuche" vor Ort die
+Einhaltung der europäischen Vorgaben. Die Ergebnisse dieser
+Besuche werden im Internet veröffentlicht und sind aufgrund
+der gemeinsamen Datenbasis auch für die Qualitätssicherung
+des nationalen Verbraucherpreisindex von Bedeutung.
+
+1.9.2 Qualitätsbewertung
+Der deutsche Verbraucherpreisindex zeichnet sich
+insbesondere durch seine hohe Relevanz für die
+Inflationsmessung, seine Genauigkeit und seine sehr hohe
+Aktualität aus. Auf die Transparenz der Erhebungs- und
+Berechnungsmethoden wird besonderen Wert gelegt. Der
+Verbraucherpreisindex erfüllt die Anforderungen als
+zentraler Indikator zur Beurteilung der Geldwertentwicklung
+in Deutschland und ist als Orientierungsmaßstab etwa bei
+Lohnverhandlungen oder in vertraglichen Vereinbarungen über
+die Höhe von wiederkehrenden Zahlungen (sogenannte
+Wertsicherungsklauseln) gut geeignet. Seine Teilindizes
+eignen sich als bedeutsame Quelle für die Deflationierung
+der Konsumausgaben in den Volkswirtschaftlichen
+Gesamtrechnungen.
+
+
+2  Inhalte und Nutzerbedarf
+===========================
+
+2.1 Inhalte der Statistik
+2.1.1 Inhaltliche Schwerpunkte der Statistik
+Für den Verbraucherpreisindex werden Preisindexreihen für
+die Verbrauchsausgaben privater Haushalte in Deutschland
+insgesamt und für entsprechende Teilaggregate (vergleiche
+Darstellungseinheiten in Abschnitt 1.3) bereitgestellt. Die
+Teuerungsraten gegenüber dem entsprechenden
+Vorjahreszeitraum beziehungsweise gegenüber dem Vormonat
+stehen ebenfalls zur Verfügung. Zu den einzelnen
+Teilindizes werden auch die Gewichte, mit denen diese in
+den Gesamtindex eingehen, veröffentlicht. Daraus lassen
+sich von den Nutzern Teuerungsraten für beliebige Zeiträume
+und für beliebige Güterzusammenfassungen berechnen.
+
+2.1.2 Klassifikationssysteme
+Die fachliche Gliederung der Darstellungseinheiten erfolgt
+auf Basis der Systematik der Einnahmen und Ausgaben der
+privaten Haushalte (SEA, Ausgabe 2013) in einer auf die
+Bedürfnisse der Verbraucherpreisstatistik angepassten und
+tiefer gegliederten Version. Die SEA 2013 orientiert sich
+an der Gliederungsstruktur der Europäischen Klassifikation
+der Verwendungszwecke des Individualkonsums (European
+Classification of Individual Consumption by Purpose
+(ECOICOP), Ausgabe 2012).
+
+2.1.3 Statistische Konzepte und Definitionen
+Zentrale Konzepte und Definitionen des
+Verbraucherpreisindex:
+- Grundgesamtheit sind die Preise aller Waren und
+Dienstleistungen, die private Haushalte in Deutschland für
+Konsumzwecke kaufen. Konsumausgaben privater Organisationen
+ohne Erwerbszweck werden nicht einbezogen. Unterstellte
+Mieten für selbstgenutztes Wohneigentum werden unter
+Verwendung der Entwicklung des Preisindex für
+Nettokaltmieten geschätzt (Mietäquivalenzansatz).
+- Es gilt das Inlandskonzept, das heißt es werden alle
+Ausgaben berücksichtigt, die in Deutschland getätigt
+werden, zum Beispiel auch die Ausgaben ausländischer
+Touristen.
+- Es werden die tatsächlich von den privaten Haushalten
+gezahlten Verkaufspreise einschließlich aller darauf
+lastenden Verbrauchsteuern erfasst. Zudem werden allgemeine
+und dem jeweiligen Produkt zuordenbare Preisnachlässe
+mitberücksichtigt und von den Verkaufspreisen abgezogen.
+- Innersektorale Ströme (zum Beispiel Gebrauchtwarenkäufe
+eines privaten Haushalts bei einem anderen privaten
+Haushalt ohne Einschaltung des Handels) werden nicht
+einbezogen. Eine Ausnahme bildet die Vermietung von
+privaten Haushalten an andere private Haushalte (privater
+Haushalt als Vermieter gehört zum Unternehmenssektor).
+- Da das Ziel der Inflationsmessung im Vordergrund steht,
+werden reine Preisveränderungen gemessen. Änderungen in den
+Angebotsstrukturen oder im Verbrauchsverhalten sollen nicht
+indexwirksam werden (Laspeyres-Konzept).
+Bei der Umsetzung der Konzepte sind einige Besonderheiten zu
+beachten. So werden beispielsweise auf Grund des Ziels der
+Messung der reinen Preisänderungen Änderungen der Mengen
+und Qualitäten bei den erfassten Gütern aus den
+Preisentwicklungen herausgerechnet. Dies erfolgt unter
+Verwendung international anerkannter Methoden und liefert
+in den meisten Fällen zufriedenstellende Ergebnisse (siehe
+3.3). In einigen Fällen stellt die Beurteilung der Qualität
+beziehungsweise der Qualitätsunterschiede die Statistik
+aber vor schwierige Probleme, beispielsweise wenn die
+Qualität eines Buches, eines PC-Spiels oder einer
+Konzertaufführung bewertet werden soll. Eine objektive
+"Qualitätsmessung" ist in solchen Fällen nicht möglich. Die
+derzeit einzig mögliche Lösung dafür ist die Anwendung des
+sogenannten "Bestselleransatzes", das heißt monatlich
+werden die Preise für die aktuell meistverkauften Bücher,
+CDs, DVDs oder der angebotenen Konzerte ohne
+Qualitätsbereinigung direkt verglichen. Beziehen sich die
+Bestsellerlisten dann auf zu inhomogene Gütergruppen,
+können sich extreme Preisausschläge ergeben, die ohne
+spezielles Hintergrundwissen kaum interpretierbar sind.
+Allerdings betrifft dieser Bestselleransatz nur Güter mit
+einem insgesamt sehr geringen Wägungsanteil.
+Für die Preismessung in einzelnen Bereichen der
+Verbrauchsausgaben sind aktuell keine allgemein anerkannten
+beziehungsweise empfohlenen oder vereinbarten Methoden
+verfügbar. Das betrifft zum Beispiel die Dienstleistungen
+der Lebensversicherungen, die aktuell nicht in den
+deutschen Verbraucherpreisindex einbezogen werden. Ein Teil
+der Finanzdienstleistungen wird dagegen indirekt gemessen.
+Praktische Erhebungsprobleme verhindern die Einbeziehung
+von illegalen Transaktionen oder Transaktionen in einer
+Grauzone. So können Preise für illegale Drogen oder für den
+illegalen Waffenhandel, die theoretisch zur Grundgesamtheit
+gehören, nicht einbezogen werden. Auch Preise für die
+Dienstleistungen der Prostitution werden derzeit nicht
+erfasst.
+
+2.2 Nutzerbedarf
+Der Verbraucherpreisindex wird von unterschiedlichen
+Nutzungsgruppen insbesondere für drei Verwendungszwecke
+genutzt:
+
+- Inflationsmaßstab: 
+Der Verbraucherpreisindex ist ein zentraler Indikator zur
+Beurteilung der Geldwertentwicklung in Deutschland. An
+einem solchen Inflationsmaßstab sind die Ressorts, die
+Zentralbanken, Wirtschaftsforschungsinstitute, die
+volkswirtschaftlichen Abteilungen großer Unternehmen (zum
+Beispiel Geschäftsbanken), Wissenschaft und Forschung,
+Tarifparteien sowie die Medien besonders interessiert.
+
+- Kompensationsmaßstab: 
+Der Verbraucherpreisindex wird zudem zur Anpassung
+regelmäßig wiederkehrender Zahlungen an die allgemeine
+Preisentwicklung in Deutschland aufgrund entsprechender
+Wertsicherungsklauseln in privatrechtlichen Verträgen
+verwendet. Ein Kompensationsmaßstab wird vor allem von
+Mietern und Vermietern, Zahlern und Empfängern von
+Betriebs- oder Leibrenten und anderen Inhabern von
+Zahlungsverpflichtungen beziehungsweise Empfängern
+regelmäßig wiederkehrender Zahlungen benötigt. Auch für die
+Berechnung von Entschädigungs- oder Ausgleichszahlungen
+wird der Verbraucherpreisindex oft genutzt (zum Beispiel
+Erbschaften, Scheidungen). Ein aus dem
+Verbraucherpreisindex abgeleiteter Preisindex wird - in
+Kombination mit der Entwicklung der Löhne und Gehälter -
+für die jährliche Anpassung der Regelbedarfe nach SGB II
+und SGB XII genutzt.
+
+- Deflationierung: 
+Weiterhin dient der Verbraucherpreisindex (beziehungsweise
+seine einzelnen Bausteine) dazu, nominale
+wirtschaftsstatistische Größen - zum Beispiel in den
+Volkswirtschaftlichen Gesamtrechnungen - um den Einfluss
+der Inflation zu bereinigen.
+
+2.3 Nutzerkonsultation
+Wichtige beziehungsweise bekannte Nutzende werden bei
+grundsätzlichen Entscheidungen über die Weiterentwicklung
+der Verbraucherpreisstatistik in unterschiedlicher Weise
+einbezogen:
+- Im Rahmen regelmäßiger Arbeitsgruppensitzungen und 
+  Task-Forces (insbesondere bei Eurostat, dem Statistischen 
+  Amt der Europäischen Union bezüglich des Harmonisierten 
+  Verbraucherpreisindex),
+- im Rahmen jährlicher oder bei Bedarf durchgeführter 
+  Besprechungen mit Nutzenden,
+- in längeren Abständen durch umfassende Konferenzen mit 
+  Nutzenden (Fachausschuss),
+- durch die Teilnahme des Statistischen Bundesamtes an 
+  wissenschaftlichen Konferenzen und
+- durch besondere Befragungen von nutzenden Personen bei 
+  geplanten Änderungen.
+
+
+3  Methodik
+===========
+
+3.1 Konzept der Datengewinnung
+Zur Ermittlung des Verbraucherpreisindex für Deutschland
+werden verschiedene Formen der Datengewinnung genutzt. Für
+die Ermittlung der Preisentwicklung werden Preise erhoben,
+für die Berechnung der Wägungsschemata werden
+Sekundärstatistiken verwendet.
+
+Preiserhebung:
+Bei der Berechnung des Verbraucherpreisindex wird von einem
+"Warenkorb" ausgegangen, der sämtliche von privaten
+Haushalten in Deutschland gekaufte Waren und
+Dienstleistungen repräsentiert. Der Warenkorb lässt sich
+auf zwei Ebenen betrachten.
+Die obere Ebene umfasst rund 650 Güterarten
+(10-Steller-Ebene) wie beispielsweise Salz, Kinderhose,
+Mobiltelefon oder Taxifahrt. Diesen Güterarten sind
+Wägungsanteile (Gewichte) zugeordnet, mit denen die
+jeweiligen Preisentwicklungen in den Gesamtindex
+einfließen. Auf dieser Ebene bleibt der Warenkorb
+einschließlich der Gewichte über fünf Jahre konstant.
+Für die Güterarten der oberen Ebene des Warenkorbes werden
+anschließend in jedem ausgewählten Geschäft konkrete
+Einzelprodukte, zum Beispiel eine Packung mit 500 g
+Jodsalz, für die Preismessung ausgewählt. Diese konkreten
+Einzelprodukte stellen die untere Ebene des Warenkorbes
+dar. Auf dieser Ebene der einzelnen Preisrepräsentanten
+wird der Warenkorb ständig angepasst, da wegfallende oder
+an Marktbedeutung verlierende Güter ersetzt oder neue
+Gütervarianten aufgenommen werden.
+Für den Warenkorb auf der unteren Ebene werden monatlich
+mehr als 300.000 Einzelpreise in Handels- und
+Dienstleistungsunternehmen manuell erhoben. Diese bisher
+übliche Preiserhebung umfasst einerseits die dezentrale
+Preiserhebung durch Preiserheber in Geschäften in ganz
+Deutschland und andererseits die zentrale Preiserhebung,
+welche hauptsächlich als Erhebung im Internet erfolgt.
+Die ergänzende Nutzung digitaler Datenquellen ermöglicht es
+den Statistischen Ämtern, die Zahl der monatlichen
+Preisbeobachtungen deutlich zu erhöhen. So werden zum
+Beispiel für Güterbereiche mit besonders komplexer
+Preisgestaltung - wie Pauschalreisen oder Beiträge zu
+Kfz-Versicherungen - zusätzliche Datenquellen mit hoher
+Beobachtungszahl genutzt. Darüber hinaus kommen moderne
+Erhebungsmethoden wie Web Scraping zum Einsatz, die nach
+und nach die manuelle Erhebung ersetzen. Hierbei handelt es
+sich um ein automatisiertes Auslesen von Internetdaten. Für
+den Onlinehandel und für ausgewählte Dienstleistungen - wie
+zum Beispiel für Mietwagennutzung oder Reisen per Fernbus -
+wurde die Zahl der monatlichen Preisbeobachtungen
+angesichts dynamischer Preisänderungen mit Hilfe derartiger
+Verfahren deutlich ausgeweitet.
+Alle erhobenen Daten werden zu den Güterarten (obere Ebene)
+zusammengefasst, die im Wägungsschema für Waren und
+Dienstleistungen zusammen mit ihrem Anteil an den
+Konsumausgaben privater Haushalte festgehalten sind (siehe
+Datenquellen für die Gewichtung). Bei der Erstellung des
+Wägungsschemas werden mindestens alle Güterarten auf der
+10-Steller-Ebene berücksichtigt, deren Anteil an den
+gesamten Konsumausgaben privater Haushalte in Deutschland
+über 1 Promille liegt. Eine strengere Regel gilt bei
+Saisongütern. Diese werden bereits einbezogen, wenn ihr
+Ausgabenanteil während der Angebotszeit - die im Extremfall
+auch nur einen Monat betragen kann - bei 2 Promille liegt.
+Die Vorgaben für die Grenzwerte resultieren aus den
+europäischen Verordnungen für den HVPI.
+Für die Preiserhebung wird zunächst das gesamte Bundesgebiet
+in 16 Bundesländer mit knapp 100 Regionen unterteilt. Im
+Anschluss werden im Rahmen einer gezielten Auswahl in jeder
+dieser Regionen in der Regel repräsentative Städte und
+Gemeinden und dort dann repräsentative Geschäfte
+ausgewählt. Die unterschiedlichen Marktanteile der
+Geschäftstypen (zum Beispiel Warenhäuser, Supermärkte,
+Fachgeschäfte, Online-Shops) werden durch explizite
+Gewichtung berücksichtigt. Dabei werden für die einzelnen
+Güterarten alle Geschäftstypen einbezogen, deren
+Marktanteil 5% oder mehr beträgt. Für die Auswahl der
+einzelnen Produkte gibt es sehr detaillierte Vorgaben vom
+Statistischen Bundesamt, die durch das Wissen über
+regionale Besonderheiten in den Statistischen Landesämtern
+beziehungsweise bei den Erhebungsbeauftragten vor Ort
+ergänzt werden. Die Preiserheber erheben nach diesen
+Vorgaben in den Berichtsstellen dann jeweils die Preise für
+die am häufigsten verkauften Produkte. Die Zahl der
+ausgewählten Produkte orientiert sich insbesondere am
+Anteil der Ausgaben für die entsprechende Güterart an den
+gesamten privaten Konsumausgaben.
+
+Datenquellen für die Gewichtung:
+Eine wesentliche Voraussetzung für die Berechnung
+zuverlässiger Preisentwicklungen ist die Bereitstellung
+sehr genauer Informationen darüber, welchen Anteil die
+einzelnen Transaktionen in der Grundgesamtheit haben. Das
+ist die Voraussetzung dafür, dass die einzelnen erhobenen
+Preisveränderungen angemessen in die Berechnungen eingehen.
+Dafür investiert das Statistische Bundesamt erheblich in
+die Berechnung der verschiedenen Wägungsschemata, die bei
+der Berechnung des Verbraucherpreisindex verwendet werden.
+Die Aggregation der Preise für die Waren und
+Dienstleistungen zu den Teilindizes für die 650 Güterarten
+erfolgt unter Verwendung des Wägungsschemas für die
+Geschäftstypen und für die Bundesländer. Die Teilindizes
+aller Güterarten werden im Anschluss unter Verwendung des
+Wägungsschemas für Waren und Dienstleistungen zum
+Gesamtindex aggregiert. Für die Berechnung der einzelnen
+Wägungsschemata werden verschiedene Sekundärdatenquellen
+verwendet:
+- Geschäftstypengewichtung: Die Berechnung der
+Geschäftstypengewichte stützt sich auf Marktforschungsdaten
+zu Ausgaben der privaten Haushalte beziehungsweise zu
+Umsatzverteilungen im Einzelhandel und auf amtliche
+Handelsstatistiken. Für die Regionalisierung der
+Geschäftstypengewichte auf Bundeslandebene wird zusätzlich
+auf Kenntnisse der Statistischen Landesämter
+zurückgegriffen.
+- Gewichtung der Bundesländer: Die Gewichtung der
+Bundesländer wird aus den Angaben zu der Höhe der
+Konsumausgaben der privaten Haushalte im Inland in den
+Volkswirtschaftlichen Gesamtrechnungen der Länder
+abgeleitet. Da diese nicht bis hin zu den Güterarten
+(SEA-VPI-10-Steller) gegliedert sind, ist das
+Bundeslandgewicht für alle Güterarten gleich.
+- Gewichtung der Waren und Dienstleistungen: Die wesentliche
+Basis für die Berechnung des Wägungsschemas für die Waren
+und Dienstleistungen ist die Einkommens- und
+Verbrauchsstichprobe (EVS). Die Ergebnisse der EVS liegen
+nur auf Bundesebene vor und sind nicht so tief gegliedert
+wie der Verbraucherpreisindex. Die Erhebung zur EVS findet
+auch nicht im Basisjahr des Verbraucherpreisindex statt,
+sondern zwei Jahre früher. Die Ergebnisse müssen daher
+anhand der jährlich stattfindenden Laufenden
+Wirtschaftsrechnung (LWR) fortgeschrieben und ergänzt
+werden. Zur weiteren Ausarbeitung und Unterteilung des
+Wägungsschemas werden Ergebnisse weiterer interner
+Statistiken wie beispielsweise der Volkswirtschaftlichen
+Gesamtrechnungen, Statistiken anderer Behörden wie die
+Zulassungsstatistik des Kraftfahrtbundesamtes und auch
+Ergebnisse von Marktforschungs- und anderen Instituten
+verwendet. Die in einigen Statistiken bekannten Über- oder
+Untererfassungen müssen für die Berechnung des
+Wägungsschemas korrigiert werden. So werden beispielsweise
+in der EVS und der LWR zu niedrige Angaben zum Konsum von
+Alkohol und Tabakwaren angegeben, die daher mittels der
+Ergebnisse der Verbrauchsteuerstatistik angepasst werden.
+Zudem beinhalten die Angaben in den Wirtschaftsrechnungen
+Verkäufe innerhalb des privaten Sektors (zum Beispiel
+Gebrauchtwagen), die nicht in den Verbraucherpreisindex
+einfließen und daher mittels anderer Daten (zum Beispiel
+des Kraftfahrtbundesamtes) korrigiert werden müssen. Das
+Wägungsschema für Waren und Dienstleistungen wird
+bundeseinheitlich verwendet.
+
+3.2 Vorbereitung und Durchführung der Datengewinnung
+Preiserhebung:
+Für die Preiserhebung wird für die einzelnen Güterarten der
+jeweils effizienteste der folgenden Erhebungswege genutzt:
+- Erhebung vor Ort in den einzelnen Erhebungseinheiten durch
+  Erhebungsbeauftragte der Statistischen Landesämter,
+- Zentrale Erhebung in einer Filiale bei Einzelhandelsketten
+  mit einheitlicher Preisgestaltung durch besonders 
+  geschulte Erhebungsbeauftragte,
+- Auswertung von Katalogen, Tarifwerken, Gebührenordnungen,
+  Gesetzen und Verwaltungsvorschriften,
+- Manuelle und automatisierte Erhebung im Internet,
+- Zugriff auf spezielle Datenbanken oder Kauf von Daten bei
+  privaten Anbietern und
+- Schriftliche Meldung über das Online-Meldeverfahren IDEV 
+  oder telefonische Befragung der Erhebungseinheiten bei 
+  ausgewählten Produkten.
+Für einen großen Teil der Waren und Dienstleistungen werden
+die Preise von Erhebungsbeauftragten der Statistischen
+Ämter vor Ort ermittelt. Für die Messung der
+Preisentwicklung erfassen die Preiserheber zum Großteil
+mittels mobiler Datenerfassungsgeräte mit integrierter
+Plausibilitätsprüfung bundesweit Monat für Monat die Preise
+der gleichen Produkte in denselben Geschäften. Entsprechend
+werden auch bei den anderen Erhebungswegen immer die Preise
+der gleichen Produkte beobachtet. Ein einmal für die
+Preisbeobachtung ausgewählter Artikel wird dann gegen einen
+anderen ausgetauscht, wenn er nicht mehr oder nur noch
+wenig verkauft wird. Jeweils vor Beginn eines neuen
+Basisjahres wird das Erhebungsprogramm grundsätzlich
+überprüft. Das betrifft sowohl die Auswahl der einzelnen
+Beobachtungseinheiten und die Festlegung der zu erhebenden
+Merkmale als auch die Anpassung der Vorgaben bezüglich der
+Verteilung der Erhebungseinheiten auf Regionen und
+Geschäftstypen.
+
+Datenquellen für die Gewichtung:
+Für Ausführungen zur Vorbereitung und Durchführung der
+Datengewinnung bei den wesentlichen zur Berechnung der
+Wägungsschemata verwendeten Quellen verweisen wir auf die
+Qualitätsberichte der in Abschnitt 3.1 angeführten
+amtlichen Statistiken. Diese können über die Internetseite
+des Statistischen Bundesamtes www.destatis.de &gt; Methoden &gt;
+Qualität eingesehen werden.
+
+3.3 Datenaufbereitung (einschließlich Hochrechnung)
+Preisindexberechnung:
+Die Preisindexberechnung erfolgt vorwiegend über das
+Aufbereitungsprogramm. Im ersten Schritt werden
+vorübergehend fehlende Daten (zum Beispiel aufgrund
+saisonaler Einflüsse) mittels geeigneter Verfahren, in der
+Regel mit der Preisentwicklung vergleichbarer Güter,
+fortgeschrieben. Durch Mengen- und
+Qualitätsbereinigungsverfahren wird zudem gewährleistet,
+dass trotz Änderungen im Produktangebot bei der
+Preismessung "Gleiches mit Gleichem" verglichen wird und
+somit Preisänderungen als "reine Preisentwicklung"
+interpretiert werden können. Bei der Qualitätsbereinigung
+kommen verschiedene Verfahren zum Einsatz. In vielen Fällen
+kann das alte Produktangebot durch ein zumindest annähernd
+qualitativ vergleichbares Produktangebot ersetzt werden.
+Dann ist ein direkter Preisvergleich möglich. In einigen
+Fällen ist es jedoch nicht möglich, ein qualitativ
+vergleichbares und gleichzeitig repräsentatives
+Produktangebot am Markt zu finden. Dann wird der
+Qualitätsunterschied zwischen ersetztem Produktangebot und
+Ersatzproduktangebot mittels geeigneter Verfahren berechnet
+und von der Gesamtpreisänderung abgezogen. So wird zum
+Beispiel bei Desktop-PCs, Notebooks und Gebrauchtwagen das
+Qualitätsbereinigungsverfahren der Hedonik eingesetzt, bei
+Neuwagen beispielsweise kommt die Verwendung von
+Optionspreisen (Ausstattungsbereinigung) zum Einsatz.
+Anschließend berechnet das Aufbereitungsprogramm in der
+Regel entsprechend der Formel nach Dutot für jede Güterart
+in einem Geschäftstyp in einem Bundesland einen
+Elementarindex. Dabei wird die Relation von
+Durchschnittspreisen zwischen der Berichtsperiode und der
+Basisperiode gebildet. Durch Aufsummierung der einzelnen
+Preisbeobachtungen innerhalb eines Elementaraggregats wird
+der durchschnittliche beobachtete Preis ermittelt und kann
+mit dem Durchschnittspreis der Basisperiode verglichen
+werden.
+Die so ermittelten Elementarindizes werden anhand der Formel
+nach Laspeyres aggregiert. Diese Formel wird in der
+deutschen Preisstatistik überwiegend angewendet.
+Kennzeichnend für diesen Indextyp ist, dass er die
+Preisentwicklung im Zeitverlauf misst und Mengen- sowie
+Qualitätsänderungen ausschließt. Für die Güterarten, für
+die Geschäftstypengewichte vorliegen, berechnet das
+Aufbereitungsprogramm aus den Elementarindizes unter
+Verwendung der güterspezifischen Geschäftstypengewichte
+einen Teilindex für die jeweilige Güterart in einem
+Bundesland. Im nächsten Schritt werden die Ergebnisse der
+Länder für die jeweiligen Güterarten unter Verwendung der
+Ländergewichte zu Bundesergebnissen für die rund 650
+Güterarten summiert. Für die Berechnung des
+Verbraucherpreisindex insgesamt wird der nach
+Geschäftstypen und Bundesländern gewichtete Teilindex für
+eine Güterart jeweils mit dem Ausgabenanteil gewichtet, den
+die privaten Haushalte in Deutschland für diese Güterart
+ausgeben. Preisveränderungsraten - wie beispielsweise die
+mit dem Verbraucherpreisindex gemessene Inflationsrate -
+werden am Ende des Aufbereitungsprozesses aus den
+Preisindexreihen abgeleitet.
+Berechnung der Gewichte: siehe 3.1
+
+3.4 Preis- und Saisonbereinigung, andere Analyseverfahren
+Für den Verbraucherpreisindex insgesamt und den Teilindex
+"Nahrungsmittel und alkoholfreie Getränke" werden neben den
+Originalreihen auch kalender- und saisonbereinigte Reihen
+bereitgestellt. Der Teilindex "Nahrungsmittel und
+alkoholfreie Getränke" wurde ausgewählt, da bei diesem die
+größten Saisoneffekte zu beobachten sind. Das Statistische
+Bundesamt verwendet für die Saisonbereinigung von
+Verbraucherpreisindizes das Berliner Verfahren "BV4.1".
+
+3.5 Beantwortungsaufwand
+Die Belastung für die Erhebungseinheiten ist als gering
+einzustufen, da die Erhebung überwiegend durch
+qualifizierte Erhebungsbeauftragte durchgeführt wird.
+Erhebungseinheiten (Berichtsstellen) werden nur im Fall
+schriftlicher oder telefonischer Befragungen belastet oder
+wenn Rückfragen bei der Datenerhebung (zum Beispiel
+aufgrund unzureichender Preisauszeichnungen) erforderlich
+werden. In den meisten Fällen müssen die Erhebungseinheiten
+die Datenerhebung in ihren Unternehmen, Betrieben oder
+Filialen nur zulassen. Bei der Interneterhebung oder der
+Nutzung digitaler Datenquellen entsteht keine Belastung für
+die Erhebungseinheit.
+
+
+4  Genauigkeit und Zuverlässigkeit
+==================================
+
+4.1 Qualitative Gesamtbewertung der Genauigkeit
+Die zentrale Aufgabe des Verbraucherpreisindex ist die
+Ermittlung der Preisentwicklung für die Konsumausgaben
+privater Haushalte in Deutschland. Die Preisentwicklung
+kann nicht direkt für das Aggregat gemessen oder erhoben
+werden. Die Erhebung einer Stichprobe von Preisen für
+einzelne Güter bildet daher die Datenbasis für die
+folgenden Berechnungen oder Analysen. Da für die Stichprobe
+überwiegend das Prinzip der gezielten Auswahl verwendet
+wird, kann der Stichprobenfehler formal nicht berechnet
+beziehungsweise abgeschätzt werden. Durch die sehr hohe
+Anzahl monatlich erhobener Preise und die Verwendung eines
+differenzierten Schichtungsmodells (siehe Abschnitt 3.1)
+wird jedoch versucht, den unbekannten stichprobenbedingten
+Fehler so gering wie möglich zu halten.
+Nicht-stichprobenbedingte Fehler werden beim
+Verbraucherpreisindex nicht quantifiziert. Durch eine
+kontinuierliche Verbesserung der Methoden sowie durch
+vielfältige Maßnahmen der Qualitätssicherung auf
+unterschiedlichen Ebenen (siehe Abschnitte 1.9.1 und 4.3)
+wird versucht, die nicht-stichprobenbedingten Fehler soweit
+wie möglich zu reduzieren. Für den Verbraucherpreisindex
+insgesamt wird eine Genauigkeit von 0,1 Prozentpunkten
+angestrebt, für Untergliederungen, insbesondere für
+Ausgaben mit geringer Verbrauchsbedeutung, müssen größere
+Ungenauigkeiten in Kauf genommen werden.
+Die insgesamt hohe Genauigkeit des Verbraucherpreisindex
+wird auch durch die Revisionsanalysen im Rahmen der
+methodenwechselbedingten Revisionen (siehe Abschnitt 4.4.3)
+bestätigt, bei denen zumeist nur methodische Verbesserungen
+zu nennenswerten Revisionsdifferenzen führen.
+Abweichungen zwischen vorläufigen und endgültigen
+Ergebnissen treten nur in geringem Umfang (bisher maximal
++/- 0,1 Prozentpunkten) auf.
+
+4.2 Stichprobenbedingte Fehler
+Bei der Ermittlung des Verbraucherpreisindex wird nur bei
+der Mieterhebung die Zufallsstichprobe verwendet. Es liegt
+sonst keine Auswahlgrundlage vor, aus der eine
+Zufallsstichprobe direkt beziehungsweise mit vertretbarem
+Aufwand gezogen werden könnte. Für die Stichprobe wird das
+Instrument der gezielten Auswahl - zumeist in Verbindung
+mit dem Konzentrationsprinzip - verwendet. Daher kann der
+Stichprobenfehler formal nicht berechnet beziehungsweise
+abgeschätzt werden, obwohl auswahlbedingte Fehler auf Grund
+der Stichprobe vorliegen. Die Qualität der gezielten
+Auswahl nach dem Konzentrationsprinzip ist umso besser, je
+besser die Grundgesamtheit in der Stichprobe abgebildet
+wird. Auf die Qualität der Berechnungsgrundlagen für die
+Schichtung der Stichprobe wird deshalb besonders hoher Wert
+gelegt. Durch die sehr hohe Zahl der monatlich erfassten
+Einzelpreise und das differenzierte Schichtungsmodell wird
+versucht, den nicht bekannten stichprobenbedingten Fehler
+so gering wie möglich zu halten. Es kann davon ausgegangen
+werden, dass die monatliche Preisentwicklung für den
+Gesamtindex und aggregierte Teilindizes mit diesem
+nichtzufälligen Verfahren in sehr hoher Genauigkeit
+abgebildet wird.
+
+4.3 Nicht-Stichprobenbedingte Fehler
+Nicht-stichprobenbedingte Fehler werden beim
+Verbraucherpreisindex nicht quantifiziert. Durch eine
+kontinuierliche Verbesserung der Methoden wird versucht,
+diese so weit wie möglich zu reduzieren. Im Einzelnen
+bezieht sich das insbesondere auf folgende Fehlerarten:
+
+Systematische Fehler durch Mängel in der Erfassungs-/
+Auswahlgrundlage: 
+Auf eine einzelne Erfassungs- oder Auswahlgrundlage kann
+nicht zurückgegriffen werden. Für die
+Verbraucherpreisstatistik wird diese aus unterschiedlichen
+Quellen zusammengestellt. Lücken werden durch Schätzungen
+gefüllt.
+
+Verzerrungen durch Antwortausfälle auf Ebene der Einheiten
+und Merkmale: 
+Antwortausfälle kommen im Vergleich zu anderen Erhebungen
+nur in sehr geringem Umfang vor, da in der Regel keine
+Personen beziehungsweise Unternehmen befragt werden,
+sondern die Preiserhebung durch dafür besonders
+ausgebildete Erhebungsbeauftragte erfolgt. Dennoch können
+Informationen berechtigter Weise fehlen, zum Beispiel, wenn
+eine Erhebungseinheit nicht besucht werden kann
+(Betriebsferien) oder eine Beobachtungseinheit,
+beispielsweise aus saisonalen Gründen, nicht erfasst werden
+kann. Für solche zeitlich begrenzt auftretenden Ausfälle
+kennt das Aufbereitungsprogramm Fortschreibungsmechanismen,
+die eine Verzerrung verhindern sollen. Diese
+automatisierten Berechnungen werden durch spezielle
+Signierungen angestoßen. Im Falle dauerhafter Ausfälle (zum
+Beispiel in Folge einer Betriebsschließung oder dem Wegfall
+eines Gutes) müssen die Erhebungsbeauftragten umgehend
+Ersatz suchen. Für diese Ersetzung von Beobachtungs- und
+Erhebungseinheiten gibt es allgemeine Vorgaben. Die
+Preiserheber werden dafür besonders geschult. In der Folge
+wird jeder Einzelfall einer dafür speziell qualifizierten
+Mitarbeiterin beziehungsweise einem speziell dafür
+geschulten Mitarbeiter des zuständigen Statistischen Amtes
+zur endgültigen Entscheidung beziehungsweise zur
+Präzisierung der weiteren Verfahrensweise angezeigt.
+ Besondere Situationen wie Hochwasser oder Pandemien können
+zudem zu Preisausfällen - auch in größerem Umfang - führen.
+Neben den üblichen Fortschreibungsverfahren kommen in
+diesem Fall Imputationsverfahren zum Einsatz, deren
+qualitative Einschränkungen gekennzeichnet werden.
+
+Verzerrungen durch Mess- und Aufbereitungsfehler: 
+Mess- beziehungsweise Erfassungsfehler werden durch
+Konsistenz- und Plausibilitätskontrollen des
+Aufbereitungsprogramms überwiegend bereits während der
+Erhebung der Daten verhindert. Inkonsistente Eingaben lässt
+das Aufbereitungsprogramm nicht zu,
+Plausibilitätskontrollen führen zum Beispiel bei
+auffälligen Preis- oder Mengenänderungen zu einer Warnung
+der Erhebungsbeauftragten. Diese Warnung kann ignoriert
+werden, jeder Einzelfall wird dann aber automatisch einer
+dafür speziell qualifizierten Mitarbeiterin beziehungsweise
+einem dafür speziell qualifizierten Mitarbeiter des
+zuständigen Statistischen Amtes für eine endgültige
+Bewertung / Klärung des Sachverhalts nochmals angezeigt.
+Aufbereitungsfehler werden durch automatisierte Abläufe
+beziehungsweise Berechnungen des Aufbereitungsprogramms
+verhindert.
+
+Modellbedingte Effekte: 
+Die Messung der Preisentwicklung mit Hilfe von
+Laspeyres-Indizes hat bestimmte Aussagegrenzen. In der
+klassischen Anwendung der Laspeyres-Formel wird die
+Gewichtung über eine relativ lange Periode konstant
+gehalten (Festbasisindex). In der Realität verändert sich
+die Ausgabenstruktur der Haushalte zwar langsam, aber
+dennoch von Jahr zu Jahr. Um sowohl dem Ziel der
+Darstellung der reinen Preisentwicklung, unbeeinflusst von
+Änderungen der Ausgabengewichte, als auch den sich
+wandelnden Veränderungen der Ausgabenstrukturen der
+privaten Haushalte Rechnung zu tragen, wird das
+Wägungsschema alle fünf Jahre im Rahmen einer
+methodenwechselbedingten Revision angepasst. Im Zuge dieser
+Überarbeitungen werden auch methodische Verbesserungen
+eingeführt. Die Auswirkungen der Einführung eines neuen
+Wägungsschemas waren in der Vergangenheit jedoch eher
+gering. Methodische Verbesserungen wirken sich in der Regel
+stärker aus (siehe 4.4.3).
+Für die Ziele der Inflationsmessung beziehungsweise der
+Nutzung des Verbraucherpreisindex als Kompensationsmaßstab
+entsprechen die angewandten Berechnungsmodelle
+internationalen Standards. Für alternative
+Verwendungszwecke, beispielsweise als Deflator, können im
+Detail andere Definitionen der Grundgesamtheit oder die
+Abweichungen von den angewandten Indexformeln besser
+geeignet sein.
+
+4.4 Revisionen
+4.4.1 Revisionsgrundsätze
+Routinemäßige Revisionen: 
+Beim Verbraucherpreisindex werden neben den Endergebnissen
+auch vorläufige Ergebnisse veröffentlicht. Die vorläufigen
+Ergebnisse werden am Ende des Berichtsmonats aus den
+vorliegenden vorläufigen Länderergebnissen geschätzt. In
+der Mitte des Folgemonats werden dann die endgültigen
+Ergebnisse auf Basis der nun vollständig vorliegenden,
+endgültigen Daten veröffentlicht.
+
+Methodenwechselbedingte Revision: 
+Turnusmäßig (üblicherweise alle fünf Jahre) wird ein neuer
+Verbraucherpreisindex mit einem neuen Basisjahr eingeführt.
+Neben der Anpassung des Wägungsschemas für Waren und
+Dienstleistungen an aktuelle Verbrauchsgewohnheiten der
+privaten Haushalte sowie der Aktualisierung der Länder- und
+Geschäftstypengewichte wird dieser Termin auch zur
+systematischen Überarbeitung des Erhebungskatalogs und für
+methodische Änderungen genutzt.
+
+4.4.2 Revisionsverfahren
+Routinemäßige Revisionen: 
+Siehe Abschnitt 4.4.1
+
+Methodenwechselbedingte Revision: 
+Da die Auswertung der Ergebnisse der Einkommens- und
+Verbrauchsstichprobe nicht früher zur Verfügung steht, kann
+die Anpassung des Wägungsschemas für einen neuen
+Verbraucherpreisindex erst mit einer Verzögerung von gut
+zwei Jahren nach Ablauf des neuen Basisjahres erfolgen. Die
+Indizes werden dann jeweils ab dem neuen Basisjahr neu
+berechnet und ersetzen die bis zu diesem Zeitpunkt
+veröffentlichten Ergebnisse für diesen Zeitraum.
+Die methodenwechselbedingte Revision des
+Verbraucherpreisindex wird detailliert vorbereitet. Bereits
+vor Beginn des neuen Basisjahres wird die Stichprobe der
+Erhebungs- und Beobachtungseinheiten systematisch überprüft
+und gegebenenfalls aktualisiert. Auch die methodischen
+Änderungen werden in der Regel bereits vor Beginn des neuen
+Basisjahres festgelegt. Mit Beginn des neuen Basisjahres
+beginnt eine doppelte Preiserhebung nach alten und nach
+neuen Vorgaben. Nach Ablauf des neuen Basisjahres erfolgt
+die Neuberechnung der Wägungsschemata (abhängig von der
+Verfügbarkeit von Informationen über die Konsumstrukturen
+und -gewohnheiten der privaten Haushalte). Gut zwei Jahre
+nach Ablauf des neuen Basisjahres werden die Ergebnisse ab
+Beginn des neuen Basisjahres mit den neuen
+Strukturinformationen und unter Verwendung der neuen
+Methoden neu berechnet. Weiter zurückliegende Ergebnisse
+werden nicht neu berechnet, sondern nur verkettet, das
+heißt formal auf das neue Basisjahr umgerechnet.
+Verkettungszeitraum ist üblicherweise der Dezember vor dem
+neuen Basisjahr, im Falle veränderter Saisonfiguren
+aufgrund veränderter Methoden der Jahresdurchschnitt des
+neuen Basisjahres. Durch diese Umbasierung ergeben sich
+inhaltlich keine neuen Ergebnisse, rundungsbedingte
+Differenzen können allerdings auftreten.
+
+4.4.3 Revisionsanalysen
+Vorläufige Ergebnisse: 
+Der Vergleich zwischen den vorläufigen und den endgültigen
+Ergebnissen zeigt, dass das vorläufige Ergebnis des
+Verbraucherpreisindex insgesamt meist nicht beziehungsweise
+nicht mehr als 0,1 Prozentpunkte vom endgültigen Ergebnis
+abweicht.
+
+Methodenwechselbedingte Revision: 
+Bei jeder Revision werden die neu berechneten Ergebnisse (ab
+Beginn des neuen Basisjahres) mit den bisherigen
+Ergebnissen verglichen. Die sich daraus ergebenden
+Revisionsdifferenzen werden einer differenzierten Analyse
+unterzogen, deren Ergebnisse veröffentlicht werden. So wird
+zum Beispiel ermittelt, welcher Teil der
+Revisionsdifferenzen auf veränderte Verbrauchs- und
+Einkaufsgewohnheiten (Wägungsschemata) der privaten
+Haushalte zurückzuführen ist. Auch die Auswirkungen
+größerer methodischer Änderungen werden isoliert und
+differenziert nachgewiesen.
+Die gesamten Revisionsdifferenzen, die sich aus der
+Einführung des Index auf Basis 2015 ergeben haben, beträgt
+durchschnittlich -0,11 Prozentpunkte, deren Spanne reicht
+für einzelne Monate von +0,1 (+0,12) Prozentpunkten bis
+-0,3 (-0,33) Prozentpunkten.
+Mit dem neuen Basisjahr 2015 wurden auch bei dieser Revision
+die Wägungsschemata aktualisiert und methodische
+Verbesserungen eingeführt. Gleichzeitig wurde auf neue
+Klassifikationen (siehe 2.1.2) umgestellt. Die Verschiebung
+in den Aggregaten wirken sich teilweise auch auf die
+Revisionsdifferenzen (und die Ergebnisdarstellung) aus.
+Insgesamt wird die Preisentwicklung durch das neue
+Wägungsschema für Waren und Dienstleistungen gedämpft. Dies
+betrifft die Jahre 2017 und 2018, im Jahr 2016 wurde ein
+preiserhöhender Effekt auf den gesamten
+Verbraucherpreisindex auf neuer Basis ermittelt. In den
+einzelnen Monaten liegen die Abweichungen infolge der
+Neugewichtung der Waren und Dienstleistungen zwischen +0,11
+und -0,19 Prozentpunkten. Die größte Abweichung zwischen
+dem neuen und alten Wägungsschema liegt im Ausgabenanteil
+für Wohnen vor. Die Steigerung um 0,8 Prozentpunkte von der
+Basis 2010 auf die Basis 2015 ist größtenteils darauf
+zurückzuführen, dass ein Teil der Garagenmiete - infolge
+der neuen Klassifikationen - von dem Bereich Verkehr zu dem
+Bereich Wohnen umsortiert wurde. Der Wägungsanteil für den
+Teilbereich Nettokaltmiete ist hingegen gesunken. Grund
+hierfür ist, dass die Ausgaben für den Teilbereich Mieten
+weniger stark gestiegen sind als die Ausgaben für den
+gesamten Warenkorb.
+Die aktualisierte Geschäftstypengewichtung zeigt vor allem,
+dass sich das Einkaufsverhalten innerhalb des stationären
+Handels kaum verschoben hat; Discounter und Fachmärkte
+haben weiterhin die größte Marktbedeutung im stationären
+Handel. Die privaten Haushalte kaufen in den letzten Jahren
+zunehmend über das Internet ein. Die Bedeutung des
+Onlinehandels hat daher am deutlichsten zugelegt. Im
+Vergleich zur Neuberechnung der Gütergewichte ist die
+Auswirkung der neuen Geschäftstypengewichtung auf die
+Indexentwicklung nach der Revision jedoch gering. Die
+Revisionsdifferenzen im Jahr 2016 bewegen sich zwischen
++0,02 und -0,03 Prozentpunkten, in den Jahren 2017 und 2018
+sogar nur zwischen maximal +0,01 und -0,01 Prozentpunkte.
+Die neuen Gewichte der Bundesländer haben keinen
+signifikanten Einfluss auf die Revisionsdifferenzen des
+Verbraucherpreisindex. Diese liegen unterhalb von 0,01
+Prozentpunkten und damit noch unter den Werten für die
+Neugewichtung der Geschäftstypen.
+Die Implementierung methodischer Verbesserungen kann zu
+deutlich größeren Abweichungen im Ergebnis führen. Bei der
+Umstellung auf das Basisjahr 2015 wurden insbesondere die
+Mieten und die Berechnung der Pauschalreisen methodisch
+überarbeitet.
+Bezüglich der Mieten wurde eine neue Mietenstichprobe
+umgesetzt sowie gleichzeitig eine Schichtung und explizite
+Gewichtung für Kreis- und Vermietertypen eingeführt.
+Die im Verbraucherpreisindex ausgewiesene Preisentwicklung
+der Nettokaltmieten hat sich durch die methodischen
+Änderungen im Jahr 2018 nicht verändert. In den beiden
+Vorjahren wurde die Mietpreisentwicklung jedoch leicht nach
+unten korrigiert, um 0,2 Prozentpunkte im Jahr 2017 und um
+0,1 Prozentpunkte im Jahr 2016. Vor allem die stärkere
+Berücksichtigung der privaten Kleinvermieter spiegelt sich
+in den monatlichen Revisionsdifferenzen des
+Verbraucherpreisindex wider. Durch den gestiegenen Einfluss
+der vergleichsweise geringen Preissteigerungen bei privaten
+Kleinvermietern dämpft der neue Mietpreisindex den
+Verbraucherpreisindex insgesamt. Die höchste Abweichung im
+Zuge der Revision liegt im Februar 2017 vor. Hier dämpft
+der neue Mietindex den Verbraucherpreisindex um 0,07
+Prozentpunkte.
+Bei den Pauschalreisen kam es zu Verschiebungen bei der
+Auswahl und der Bedeutung einzelner Reiseziele. Vor allem
+aber die methodische Umstellung auf feste jährliche
+Gewichtung für Pauschalreisen führt zu deutlichen
+Änderungen im Saisonverlauf. Damit sind die
+Vormonatsveränderungen an den Saisonübergängen besser
+dargestellt und interpretierbar. Der Einfluss der
+methodischen Änderungen auf die Ergebnisse für
+Pauschalreisen ist deutlich und spiegelt sich auch in den
+Revisionsdifferenzen wider: Die Neuberechnung der
+Pauschalreisen erhöht die Veränderungsrate des
+Verbraucherpreisindex um 0,11 Prozentpunkte.
+Eine weitere methodische Änderung ist die Verbesserungen bei
+der Personenbeförderung im Schienenverkehr. Diese
+Änderungen führt zu nachweislichen aber geringfügigen
+monatlichen Abweichungen von maximal 0,02 Prozentpunkten.
+Für sonstige Änderungen, wie den Stichprobenumbau bei
+Medikamenten oder den Umstieg auf die automatisierte
+Preiserhebung mittels Web Scraping, die umgesetzt wurden,
+konnten keine, beziehungsweise nur sehr geringe
+Auswirkungen auf die Teuerungsraten insgesamt nachgewiesen
+werden. Die verbleibenden Revisionsdifferenzen bewegen sich
+im negativen Bereich deutlich unterhalb von -0,2
+Prozentpunkten, im positiven Bereich sogar unterhalb von +
+0,1 Prozentpunkten.
+Ergänzende Ausführungen insbesondere zu den
+Revisionsdifferenzen enthält der Wista-Aufsatz Egner, U.:
+"Verbraucherpreisstatistik auf neuer Basis 2015 – Die
+wichtigsten Änderungen und ihre Auswirkungen auf die
+Ergebnisse", WiSta 05/2019.
+Weitere Informationen zur Basisumstellung im Jahr 2019:
+www.destatis.de
+
+
+5  Aktualität und Pünktlichkeit
+===============================
+
+5.1 Aktualität
+Vorläufige Ergebnisse: 
+Vorläufige Ergebnisse werden üblicherweise kurz vor dem
+Monatsende veröffentlicht. Ausnahmen gelten für die
+Berichtsmonate Dezember (wegen der Feiertage) und Februar
+(wegen der Kürze des Monats). Weitere Ausnahmen aufgrund
+von Kalenderunregelmäßigkeiten können festgelegt werden.
+Diese werden vor Beginn des Kalenderjahres in die
+Terminpläne für die Veröffentlichung eingearbeitet und im
+Internet bekanntgegeben.
+
+Endgültige Ergebnisse: 
+Die endgültigen Ergebnisse für den monatlichen
+Verbraucherpreisindex werden jeweils um die Monatsmitte des
+Folgemonats veröffentlicht.
+
+5.2 Pünktlichkeit
+Bisher wurden alle angekündigten Veröffentlichungstermine
+eingehalten.
+
+
+6  Vergleichbarkeit
+===================
+
+6.1 Räumliche Vergleichbarkeit
+Die räumliche Vergleichbarkeit der Indizes der einzelnen
+Bundesländer ist uneingeschränkt sichergestellt, da in
+allen Bundesländern das gleiche Konzept angewendet wird.
+Dabei wird in allen Bundesländern das gleiche
+bundeseinheitliche Wägungsschema genutzt, da
+Wägungsinformationen nach Ländern differenziert nicht in
+hinreichendem Detail beziehungsweise in hinreichender
+Genauigkeit vorliegen. Für den Vergleich der Ergebnisse für
+Deutschland mit denen anderer Länder sollte besser der
+Harmonisierte Verbraucherpreisindex (siehe Abschnitt 7.1)
+verwendet werden. Dieser wird in allen Mitgliedstaaten der
+Europäischen Union nach identischen Konzepten berechnet.
+
+6.2 Zeitliche Vergleichbarkeit
+Die zeitliche Vergleichbarkeit zwischen zwei
+methodenwechselbedingten Revisionen (siehe 4.4.1) ist voll
+gewährleistet, da methodische Änderungen oder eine
+Berücksichtigung veränderter Konsum- beziehungsweise
+Einkaufsgewohnheiten nur zu diesen Zeitpunkten erfolgen.
+Die Verbraucherpreisindizes unterschiedlicher Basisjahre
+werden rechnerisch miteinander verkettet. Durch die
+Einführung neuer Wägungsschemata und methodischer
+Änderungen bei der Einführung eines neuen Basisjahres sind
+die zu langen Reihen verketteten Verbraucherpreisindizes
+nur eingeschränkt miteinander vergleichbar.
+
+
+7  Kohärenz
+===========
+
+7.1 Statistikübergreifende Kohärenz
+Die Ergebnisse anderer Statistiken zu ähnlichen Inhalten
+weichen teilweise von den Ergebnissen des
+Verbraucherpreisindex für Deutschland ab. Die Unterschiede
+entstehen vor allem durch die Zielsetzung der
+Preisstatistik, die Preisentwicklung in den
+unterschiedlichen Wirtschaftssektoren und auf den
+unterschiedlichen Wirtschaftsstufen zu messen.
+
+Harmonisierter Verbraucherpreisindex (HVPI): 
+Der HVPI soll ebenso wie der Verbraucherpreisindex (VPI)
+grundsätzlich die Preisentwicklung der Verbrauchsausgaben
+der privaten Haushalte im Inland messen. Beide Indizes
+werden aus einer gemeinsamen Datenbasis abgeleitet. Das
+gilt im Grundsatz sowohl für die Berechnung der
+Wägungsschemata als auch für die monatliche Preiserhebung.
+Daher sind die Ergebnisse des deutschen HVPI und des
+nationalen VPI auf der tiefsten aggregierten Ebene
+(Elementarindizes) identisch.
+Allerdings dienen die beiden Preisindizes teilweise
+unterschiedlichen Verwendungszwecken. Beim HVPI steht der
+internationale Vergleich im Vordergrund. Besonders wichtig
+sind dabei die vergleichbare Berechnung des Index innerhalb
+der Mitgliedstaaten der EU und seine Aggregierbarkeit zu
+europäischen Preisindizes. Der VPI ist im Gegensatz dazu
+auf die Rahmenbedingungen in Deutschland ausgerichtet und
+berücksichtigt auch stärker alternative Zielsetzungen des
+Kompensationsmaßstabs oder der Deflationierung. Durch die
+unterschiedlichen Verwendungszwecke ergeben sich
+Unterschiede in der Abgrenzung und der Berechnung der
+Indizes. Der HVPI verzichtet im Gegensatz zum VPI auf die
+Einbeziehung von unterstellten Mieten für vom Eigentümer
+selbstgenutzten Wohnraum, Ausgaben für Glücksspiele und den
+Rundfunkbeitrag. In der Vergangenheit waren die
+Unterschiede im Erfassungsbereich noch größer, so waren
+beispielsweise die Kraftfahrzeugsteuer sowie die
+Zulassungsgebühren bis Dezember 2009 nicht im HVPI
+enthalten.
+Der HVPI wird im Gegensatz zum VPI als Kettenindex mit
+jährlich wechselndem Wägungsschema berechnet. Auf eine
+Neuberechnung von Vergangenheitswerten wird in der Regel
+verzichtet, und zwar sowohl bei einer Neugewichtung der
+Ausgaben als auch bei methodischen Änderungen. Die
+zeitliche Vergleichbarkeit kann daher beim HVPI im
+Gegensatz zum VPI etwas stärker eingeschränkt sein, er
+berücksichtigt dagegen aktuellere Konsum- und
+Verbrauchsmuster.
+Neue Verordnungen für den HVPI werden, soweit sie mit den
+Konzepten vereinbar sind, auch beim VPI umgesetzt.
+Allerdings erfolgt die Umsetzung beim VPI mit zeitlicher
+Verzögerung im Zuge der nächsten methodenwechselbedingten
+Revision (in der Regel alle 5 Jahre), während die
+Verordnungen beim HVPI umgesetzt werden sobald sie in Kraft
+treten.
+
+Einzelhandelspreisindex (EHPI): 
+Auch der EHPI wird aus der Datenbasis abgeleitet, die für
+den VPI und den HVPI ermittelt wird. Im Gegensatz zum VPI
+handelt es sich beim EHPI aber um einen
+Verbraucherpreisindex in einer institutionell abgegrenzten
+Untergliederung und nicht um eine Untergliederung nach
+Verwendungszwecken der privaten Verbrauchsausgaben. Der
+EHPI umfasst damit nur die Käufe der privaten Haushalte
+beim Einzelhandel und wird sowohl einschließlich als auch
+ohne Mehrwertsteuer berechnet, um seine Verwendung als
+Deflator für nominale Größen (zum Beispiel den
+Einzelhandelsumsatz) zu unterstützen.     
+
+Volkswirtschaftliche Gesamtrechnungen (VGR): 
+Die VGR haben die Aufgabe, für einen bestimmten Zeitraum ein
+möglichst umfassendes, übersichtliches, hinreichend
+gegliedertes, quantitatives Gesamtbild des wirtschaftlichen
+Geschehens in einer Volkswirtschaft zu geben. Dazu gehört
+auch die Abbildung der Höhe der privaten Konsumausgaben im
+Wirtschaftsgebiet. Das Konzept des VPI orientiert sich im
+Wesentlichen an der Abgrenzung der privaten Konsumausgaben
+in den VGR. In einigen Punkten weichen die beiden Konzepte
+jedoch voneinander ab.
+Für die Deflationierung der Konsumausgaben der privaten
+Haushalte im Inland greift die VGR vielfach auf
+Einzelergebnisse beziehungsweise Teilindizes des VPI zu,
+nimmt allerdings Modifikationen vor, um die VPI-Ergebnisse
+für das Ziel der Deflationierung aufzubereiten. Der VPI und
+der entsprechende Deflator der VGR unterscheiden sich damit
+allein schon aufgrund der unterschiedlichen Konzepte
+(Kettenindex und Laspeyres-Index mit fester Basis).
+Die VGR füllt zudem Lücken im Erfassungsbereich, zum
+Beispiel bei illegalen oder schwer erfassbaren
+Transaktionen (Schmuggel, Schwarzarbeit und so weiter)
+durch Schätzungen. Der VPI verzichtet in solchen Fällen
+zumeist auf eine Einbeziehung oder legt in Einzelfällen die
+Preisentwicklung vergleichbarer legaler Transaktionen
+zugrunde.
+In den VPI werden wie im HVPI die Kraftfahrzeugsteuer und
+die Beiträge zu privaten Krankenversicherungen (nur mit dem
+Dienstleistungsanteil) einbezogen. Diese werden in den VGR
+nicht als Konsumausgaben, sondern als Sozialbeiträge
+behandelt.
+Rundfunkbeiträge werden im Gegensatz zum VPI weder in den
+VGR noch im HVPI berücksichtigt.
+
+Weitere Preisindizes für den zeitlichen Preisvergleich:
+Neben dem Verbraucherpreisindex gibt es noch weitere
+Preisindizes für den zeitlichen Preisvergleich. Dazu
+gehören die Erzeugerpreisindizes, die
+Außenhandelspreisindizes, der Großhandelsverkaufspreisindex
+sowie die Bau- und Immobilienpreisindizes. Bei diesen
+Indizes handelt es sich wie beim Verbraucherpreisindex um
+Preisindizes vom Typ Laspeyres. Sie weisen jedoch die
+Preisentwicklung auf anderen Wirtschaftsstufen aus und
+beziehen im Gegensatz zum VPI überwiegend die
+Mehrwertsteuer nicht mit ein. Gleiche Güter können auf den
+verschiedenen Wirtschaftsstufen unterschiedliche
+Preisentwicklungen aufweisen, da jeweils spezifische
+Teilleistungen (zum Beispiel Handelsleistungen)
+hinzukommen.
+
+Kaufkraftparitäten (KKP), Preisniveauindizes (PNI): 
+Um Informationen über Unterschiede von Preisniveaus zwischen
+einzelnen Ländern zu bekommen, berechnet das Statistische
+Amt der Europäischen Union (Eurostat) in Zusammenarbeit mit
+den nationalen Statistikämtern sogenannte
+Kaufkraftparitäten, aus denen in einem weiteren Schritt
+Preisniveauindizes abgeleitet werden. KKP und PNI werden
+unter anderem auch für Waren und Dienstleistungen für den
+privaten Konsum berechnet. Anders als beim VPI wird der
+Warenkorb für die privaten Konsumausgaben in einem
+internationalen Abstimmungsprozess definiert. Das
+Wägungsschema für die KKP wird von den teilnehmenden
+Ländern jeweils aus den Volkswirtschaftlichen
+Gesamtrechnungen abgeleitet. Es ist zudem weniger tief
+gegliedert als das Wägungsschema des VPI. Das Konzept der
+KKP und der PNI ist rein auf den räumlichen Preisvergleich
+ausgerichtet. Die Preise zur Berechnung der KKP und der PNI
+werden nur in Berlin) und nicht wie beim VPI in ganz
+Deutschland erhoben. Mittels Anpassungsfaktoren, die aus
+Durchschnittspreisen ausgewählter Güter hergeleitet werden,
+wird das Ergebnis für Berlin auf Deutschland insgesamt
+hochgerechnet. In die weitere Berechnung der PNI fließen
+zudem Wechselkurse ein. PNI werden also im Gegensatz zum
+VPI von Wechselkursschwankungen beeinflusst.
+
+Wirtschaftsrechnungen (Einkommens- und Verbrauchsstichprobe,
+Laufende Wirtschaftsrechnungen): 
+Wirtschaftsrechnungen liefern wichtige Informationen über
+die Struktur der Konsumausgaben privater Haushalte in
+Deutschland. Sie sind die wesentliche Basis zur Berechnung
+des Wägungsschemas für Waren und Dienstleistungen beim
+Verbraucherpreisindex. Die Konzepte und Definitionen der
+Wirtschaftsrechnungen zu den privaten Konsumausgaben
+stimmen jedoch nicht vollständig mit denen des VPI überein.
+Die Klassifikationen der aktuell zu Grunde liegenden
+Einkommens- und Verbrauchsstichprobe (EVS) und des VPI
+lehnen sich zwar beide an das Systematische Verzeichnis der
+Einnahmen und Ausgaben privater Haushalte in Deutschland
+(SEA) an, die Ergebnisse der EVS sind jedoch nicht so tief
+gegliedert wie die des VPI. Zudem findet die EVS in der
+Regel nicht im Basisjahr der Verbraucherpreisstatistik
+statt. Die Ergebnisse der EVS werden daher mit den tiefer
+gegliederten Angaben aus den Laufende Wirtschaftsrechnungen
+(LWR) ergänzt und aktualisiert. Die Wirtschaftsrechnungen
+beruhen im Gegensatz zum VPI auf dem Inländerkonzept und
+erfassen auch Verkäufe innerhalb des privaten Sektors (zum
+Beispiel Gebrauchtwagen). Die Ergebnisse der
+Wirtschaftsrechnungen werden zur Berechnung des
+Wägungsschemas für den privaten Konsum anhand weiterer
+Statistiken angepasst und ergänzt, sodass das Wägungsschema
+im Verbraucherpreisindex nicht vollkommen mit den
+Ergebnissen zur Struktur der privaten Konsumausgaben in den
+Wirtschaftsrechnungen übereinstimmt.
+
+7.2 Statistikinterne Kohärenz
+Der Verbraucherpreisindex ist intern kohärent. Für die
+Auswahl, Erhebung und Aufbereitung der Preisreihen gibt es
+klare, an internationalen Vorgaben orientierte Regelungen.
+
+7.3 Input für andere Statistiken
+Der Verbraucherpreisindex für Deutschland (beziehungsweise
+seine einzelnen Bausteine) wird unter anderem verwendet, um
+nominale wirtschaftsstatistische Größen - zum Beispiel in
+den Volkswirtschaftlichen Gesamtrechnungen oder in den
+Lohnstatistiken - um den Einfluss der Inflation zu
+bereinigen.
+Weiterhin werden der europaweit harmonisierte
+Verbraucherpreisindex, der Einzelhandelspreisindex und der
+Gastgewerbeindex aus der gleichen Datenbasis wie der
+Verbraucherpreisindex abgeleitet.
+
+
+8  Verbreitung und Kommunikation
+================================
+
+8.1 Verbreitungswege
+- Pressemitteilungen:
+Die Veröffentlichung der Ergebnisse wird stets von einer
+Pressemitteilung begleitet. In der Pressemitteilung werden
+die wichtigsten Ergebnisse zusammengefasst. Die
+Veröffentlichungstermine werden in einem öffentlich
+zugänglichen Jahreskalender festgehalten (siehe Abschnitt
+8.3).
+
+- Veröffentlichungen:
+Die wichtigsten aktuellen Ergebnisse zum
+Verbraucherpreisindex für Deutschland sind auf der
+Themenseite "Verbraucherpreisindex" unter www.destatis.de &gt;
+Themen &gt; Wirtschaft &gt; Preise &gt; Verbraucherpreisindex im
+Bereich "Tabellen" verfügbar.
+Unter www.destatis.de &gt; Themen &gt; Wirtschaft &gt; Preise &gt;
+Verbraucherpreisindex &gt; Publikationen stehen folgende
+Produkte zum Download zur Verfügung:
+- Fachserie 17, Reihe 7 (Monatsbericht): Diese
+Veröffentlichung enthält neben den Preisindizes und
+Teuerungsraten für die 12 Abteilungen der Systematik der
+Einnahmen und Ausgaben der privaten Haushalte in der für
+den Verbraucherpreisindex (VPI) geltenden Fassung (SEA-VPI)
+zusätzlich Ergebnisse für Drei- und Viersteller der SEA,
+für ausgewählte Sondergliederungen (Energie, Mieten,
+Kraftfahrer-Preisindex), detailliertere Ergebnisse für den
+Einzelhandelspreisindex sowie Preisindizes und
+Teuerungsraten für die Bundesländer.
+- Wägungsschema: Diese Veröffentlichung enthält die
+Gewichtsangaben für die Abteilungen und die Zwei- bis
+Fünfsteller des Verbraucherpreisindex. Zudem werden die
+Güterarten, deren Preisentwicklung in den
+Verbraucherpreisindex einfließen, genannt.
+- Jahresbericht: Diese Veröffentlichung enthält neben den
+Preisindizes für die 12 Abteilungen der Systematik der
+Einnahmen und Ausgaben der privaten Haushalte in der für
+den Verbraucherpreisindex (VPI) geltenden Fassung (SEA-VPI)
+zusätzlich Ergebnisse für Drei- und Viersteller der
+SEA-VPI, für ausgewählte Sondergliederungen und
+detailliertere Ergebnisse für den Einzelhandelspreisindex
+jeweils ab 1991. Preisindizes für die Bundesländer sind ab
+1995 enthalten. Eine Tabelle mit Verbraucherpreisindizes
+für spezielle Haushaltstypen und für die Gebietsstände
+"Früheres Bundesgebiet" und "Neue Länder und Berlin-Ost"
+ist ebenfalls zu finden.
+- Lange Reihen ab 1948: Diese Veröffentlichung enthält
+sowohl Monatswerte als auch Jahresdurchschnitte
+verschiedener Verbraucherpreisindizes. Bis 1999 sind die
+früher berechneten Preisindizes für die Lebenshaltung
+getrennt nach Früherem Bundesgebiet und Neuen Ländern
+einschließlich Berlin-Ost sowie die einzelnen
+Haushaltstypen enthalten. Zudem beinhaltet das Produkt den
+Index der Einzelhandelspreise nach alter und neuer
+Abgrenzung und den Verbraucherpreisindex für Deutschland
+(ab 1991).
+- Daten zur Energiepreisentwicklung: In diese
+Querschnittsveröffentlichung fließen Preise und
+Preisindizes für unterschiedliche Energiearten als lange
+Reihen ein. Neben Verbraucherpreisindizes werden auch
+Einfuhr-, Ausfuhr- und Erzeugerpreisindizes nachgewiesen.
+
+- Online-Datenbank:
+In der GENESIS-Online Datenbank (www.destatis.de &gt;
+GENESIS-Online Datenbank &gt; Themen &gt; 6 &gt; 61 &gt; 61111) können
+die Ergebnisse des Verbraucherpreisindex für die rund 650
+Güterarten ab 1991 (soweit vorhanden) in unterschiedlichen
+Dateiformaten abgerufen werden. Für die Bundesländer sind
+jeweils der Gesamtindex ab 1995 und der Index der
+Nettokaltmiete ab 2005 abrufbar.
+Ebenfalls in der Datenbank abrufbar sind die Wägungsschemata
+für das aktuelle Basisjahr und für frühere Basisjahre (ab
+1995).
+
+- Zugang zu Mikrodaten:
+Mikrodaten sind nicht verfügbar.
+
+- Sonstige Verbreitungswege:
+Tiefer gegliederte Länderergebnisse können über den
+Internetauftritt des jeweiligen Landesamtes abgerufen
+werden. Diesen erreichen Sie zum Beispiel über die Homepage
+des Statistischen Bundesamtes (www.destatis.de &gt; Service &gt;
+Statistisches Adressbuch).
+
+8.2 Methodenpapiere/Dokumentation der Methodik
+Aufsätze zum Verbraucherpreisindex erscheinen in unserem
+Wissenschaftsmagazin "WISTA - Wirtschaft und Statistik"
+(www.destatis.de &gt; Methoden &gt; WISTA - Wirtschaft und
+Statistik).
+Aktuell relevante Dokumente stehen auf unserer Homepage
+unter www.destatis.de &gt; Themen &gt; Wirtschaft &gt; Preise &gt;
+Verbraucherpreisindex &gt; Methoden &gt; Methodenpapiere zur
+Verfügung.
+
+8.3 Richtlinien der Verbreitung
+- Veröffentlichungskalender:
+Die Ankündigung der Veröffentlichungstermine erfolgt am Ende
+eines Kalenderjahres für das darauffolgende Kalenderjahr.
+
+- Zugriff auf den Veröffentlichungskalender
+Veröffentlichungstermine für den Verbraucherpreisindex
+können über die Internetseite des Statistischen Bundesamtes
+www.destatis.de &gt; Presse &gt; Jahreskalender eingesehen
+werden.
+
+- Zugangsmöglichkeiten:
+Die Ergebnisse des Verbraucherpreisindex werden gleichzeitig
+als Pressemitteilung, Fachserie und in der GENESIS-Online
+Datenbank im Internetangebot des Statistischen Bundesamtes
+bereitgestellt.
+
+8.4 Kontaktinformation
+Statistisches Bundesamt
+Gustav-Stresemann-Ring 11
+65189 Wiesbaden
+
+Tel: +49 (0) 611 / 75 4777 
+www.destatis.de/kontakt
+
+
+© Statistisches Bundesamt, Wiesbaden 2021</genml:TEXT></genml:EXPLANATION><genml:FREQUENCIES><genml:FREQUENCY-OBJECT><genml:FREQUENCY>MONTHLY</genml:FREQUENCY><genml:VALIDITY><genml:FROM>1950-01-01</genml:FROM></genml:VALIDITY></genml:FREQUENCY-OBJECT></genml:FREQUENCIES><genml:CUBE-COUNT>0</genml:CUBE-COUNT></genml:STATISTICS></genml:STATS><genml:MEASURE-UNITS><genml:MEASURE-UNIT NAME="%" EXTRACTED="2022-06-02T14:06:12" MODIFIED="2022-06-02T14:06:11" CREATED="2022-06-02T14:06:11"><genml:DISPLAY-TEXT><genml:TEXT LANG="en">%</genml:TEXT><genml:TEXT LANG="de">%</genml:TEXT></genml:DISPLAY-TEXT><genml:SHORT-DESCRIPTION><genml:TEXT LANG="en" FORMAT="text/plain">%</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">%</genml:TEXT></genml:SHORT-DESCRIPTION><genml:TYPE>PERCENTAGE</genml:TYPE><genml:MARK> </genml:MARK><genml:IDENT>0</genml:IDENT><genml:PROTECTION>CHANGE</genml:PROTECTION></genml:MEASURE-UNIT><genml:MEASURE-UNIT NAME="2015=100" EXTRACTED="2022-06-02T14:06:12" MODIFIED="2016-02-23T16:02:29" CREATED="2016-02-23T16:02:36"><genml:DISPLAY-TEXT><genml:TEXT LANG="en">2015=100</genml:TEXT><genml:TEXT LANG="de">2015=100</genml:TEXT></genml:DISPLAY-TEXT><genml:SHORT-DESCRIPTION><genml:TEXT LANG="en" FORMAT="text/plain">Index 2015 = 100</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">Index 2015 = 100</genml:TEXT></genml:SHORT-DESCRIPTION><genml:TYPE>INDEX</genml:TYPE><genml:MARK> </genml:MARK><genml:IDENT>96</genml:IDENT><genml:PROTECTION>CHANGE</genml:PROTECTION></genml:MEASURE-UNIT></genml:MEASURE-UNITS><genml:FUNCTIONS><genml:FUNCTION NAME="CH0004" EXTRACTED="2022-10-10T10:10:07"><genml:DISPLAY-TEXT><genml:TEXT LANG="en" FORMAT="text/plain">in</genml:TEXT><genml:TEXT LANG="fr" FORMAT="text/plain">in</genml:TEXT><genml:TEXT LANG="it" FORMAT="text/plain">in</genml:TEXT><genml:TEXT LANG="es" FORMAT="text/plain">in</genml:TEXT><genml:TEXT LANG="de" FORMAT="text/plain">in</genml:TEXT></genml:DISPLAY-TEXT><genml:DECIMALS>-1</genml:DECIMALS><genml:CHANGE><genml:REFERENCE-TIME>VJ</genml:REFERENCE-TIME><genml:VALUE-TYPE>PROZENT</genml:VALUE-TYPE><genml:CHANGE-YEAR>-1</genml:CHANGE-YEAR></genml:CHANGE></genml:FUNCTION></genml:FUNCTIONS><genml:VALUE-ASSOCS><genml:VALUE-ASSOC TMP-LOCK="N" EXTRACTED="2022-06-02T14:06:11" MODIFIED="2016-01-22T14:01:05"><genml:VARIABLE NAME="DINSG"></genml:VARIABLE><genml:VALUE NAME="DG"></genml:VALUE><genml:POSITION-NUMBER>0</genml:POSITION-NUMBER></genml:VALUE-ASSOC></genml:VALUE-ASSOCS><genml:RULES></genml:RULES><genml:HISTORICAL-EVENTS-ASSOC></genml:HISTORICAL-EVENTS-ASSOC></genml:METADATA></genml:STATISTICAL-DATA><genml:META-INFOS><genml:META-INFO NAME="EXP-INFO" EXTRACTED="2022-06-02T14:06:12"><genml:COPYRIGHT><genml:TEXT LANG="en">© Federal Statistical Office, Wiesbaden 2022</genml:TEXT><genml:TEXT LANG="de">© Statistisches Bundesamt (Destatis), 2022</genml:TEXT></genml:COPYRIGHT><genml:OPERATOR><genml:TEXT LANG="en">Federal Statistical Office</genml:TEXT><genml:TEXT LANG="de">Statistisches Bundesamt Wiesbaden, Deutschland</genml:TEXT></genml:OPERATOR></genml:META-INFO></genml:META-INFOS><genml:META-INFO-ASSOC></genml:META-INFO-ASSOC></genml:GENESIS>
